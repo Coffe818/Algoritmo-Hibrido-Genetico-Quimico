@@ -38,18 +38,17 @@ def generar_grafo():
         for i in range(n):
             for j in range(n):
                 if i == j:
-                    continue
-            po = i
-            pf = j
+                    continue 
+                
+                po = i
+                pf = j
+                d = pf - po
+                if d < 0:
+                    distancia_final = d + n
+                else:
+                    distancia_final = d
 
-            d = pf - po
-
-            if d < 0:
-                distancia_final = d + n
-            else:
-                distancia_final = d
-
-            f.write(f"{ciudades[i]},{ciudades[j]},{distancia_final}\n")
+                f.write(f"{ciudades[i]},{ciudades[j]},{distancia_final}\n")
 
     print("Archivo 'Grafo.txt' generado con exito")
 
