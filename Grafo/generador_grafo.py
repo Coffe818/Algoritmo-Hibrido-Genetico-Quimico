@@ -1,6 +1,3 @@
-import string
-
-
 def generar_grafo():
     ciudades = [
         "A",
