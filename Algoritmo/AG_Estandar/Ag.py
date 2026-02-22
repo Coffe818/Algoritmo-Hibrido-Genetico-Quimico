@@ -6,6 +6,8 @@ from Algoritmo.Models.Celula import Celula
 
 poblacion_size = 100
 matriz_distancias = {}
+porcentaje_elitismo = 0.1
+torneo_size = 5
 
 
 def cargar_datos():
@@ -41,14 +43,49 @@ def generar_poblacion():
     celulas = []
     nodos_unicos = cargar_datos()
 
-    tiempo_inicio = time()
     for i in range(poblacion_size):
         ruta_aleatoria = random.sample(nodos_unicos, len(nodos_unicos))
         nueva_celula = Celula(ruta_aleatoria)
         nueva_celula.fitness = evaluar_ruta(nueva_celula.ruta)
         celulas.append(nueva_celula)
+    return celulas
 
-    for celula in celulas:
-        print(f"Ruta: {' -> '.join(celula.ruta)} | Distancia Total: {celula.fitness}")
-    tiempo_fin = time()
-    print(f"Tiempo de ejecución: {tiempo_fin - tiempo_inicio:.4f} segundos")
+
+def seleccionar_padres(celulas):
+    cantidad_elitismo = int(len(celulas) * porcentaje_elitismo)
+    elitaria = seleccion_elitaria(celulas, cantidad_elitismo)
+    torneo = seleccion_torneo(celulas, cantidad_elitismo)
+    return [elitaria, torneo]
+
+
+def seleccion_elitaria(celulas, cantidad_elitismo):
+    sorted_celulas = sorted(celulas, key=lambda c: c.fitness)
+    return sorted_celulas[:cantidad_elitismo]
+
+
+def seleccion_torneo(celulas, cantidad_elitismo):
+    padres = []
+    cantidad_torneo = len(celulas) // 2 - (cantidad_elitismo // 2)
+    for _ in range(cantidad_torneo):
+        torneo = random.sample(celulas, torneo_size)
+        ganador = min(torneo, key=lambda c: c.fitness)
+        padres.append(ganador)
+    return padres
+
+
+def ejecutar_algoritmo():
+    celulas = generar_poblacion()
+    elitismo, torneo = seleccionar_padres(celulas)
+
+    for celula in elitismo:
+        print(
+            f"RutaElitista: {' -> '.join(celula.ruta)} | Distancia Total: {celula.fitness}"
+        )
+
+    for celula in torneo:
+        print(
+            f"RutaTorneo: {' -> '.join(celula.ruta)} | Distancia Total: {celula.fitness}"
+        )
+
+    print("celulas", len(celulas))
+    print("PadresTorneo", len(torneo))
