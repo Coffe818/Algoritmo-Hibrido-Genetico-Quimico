@@ -43,23 +43,36 @@ def evaluar_ruta(ruta):
 
 
 def generar_poblacion():
-    celulas = []
+    celulas = set()
     nodos_unicos = cargar_datos()
 
-    for i in range(poblacion_size):
+    while len(celulas) < poblacion_size:
         ruta_aleatoria = random.sample(nodos_unicos, len(nodos_unicos))
         nueva_celula = Celula(ruta_aleatoria)
-        nueva_celula.fitness = evaluar_ruta(nueva_celula.ruta)
-        celulas.append(nueva_celula)
+
+        if nueva_celula not in celulas:
+            nueva_celula.fitness = evaluar_ruta(nueva_celula.ruta)
+            celulas.add(nueva_celula)
     return celulas
 
 
 def seleccionar_cruzar_mutar_evaluar(celulas):
     cantidad_elitismo = int(len(celulas) * porcentaje_elitismo)
     celulas_elitistas = seleccion_elitista(celulas, cantidad_elitismo)
-    rutas_torneo = seleccion_torneo_cruza(celulas, cantidad_elitismo)
 
-    mutar(rutas_torneo)
+    nueva_generacion = set(celulas_elitistas)
+
+    rutas_torneo = seleccion_torneo_cruza(celulas, nueva_generacion)
+
+    # print("Rutas elitistas seleccionadas:")
+    # for i, celula in enumerate(nueva_generacion):
+    #     print(f"Ruta {i+1}: {' -> '.join(celula.ruta)} - Distancia: {celula.fitness}")
+
+    # print("Rutas seleccionadas para torneo:")
+    # for i, ruta in enumerate(rutas_torneo):
+    #     print(f"Ruta {i+1}: {' -> '.join(ruta)}")
+
+    mutar(rutas_torneo, nueva_generacion)
 
     nuevas_celulas_torneo = []
     for ruta in rutas_torneo:
@@ -75,16 +88,27 @@ def seleccion_elitista(celulas, cantidad_elitismo):
     return celulas_ordenadas[:cantidad_elitismo]
 
 
-def seleccion_torneo_cruza(celulas, cantidad_elitismo):
-    resultado_cruza = []
-    cantidad_torneo = (len(celulas) - cantidad_elitismo) // 2
-    for _ in range(cantidad_torneo):
-        torneo1 = random.sample(celulas, torneo_size)
+def seleccion_torneo_cruza(celulas, rutas_existentes):
+
+    rutas_torneo = set()
+    while len(rutas_existentes) + len(rutas_torneo) < poblacion_size:
+        torneo1 = random.sample(list(celulas), torneo_size)
         padre1 = min(torneo1, key=lambda c: c.fitness)
-        torneo2 = random.sample(celulas, torneo_size)
+        torneo2 = random.sample(list(celulas), torneo_size)
         padre2 = min(torneo2, key=lambda c: c.fitness)
 
         hijo1, hijo2 = cruzar(padre1, padre2)
+        t1, t2 = tuple(hijo1), tuple(hijo2)
+
+        agregar_hijo1 = t1 not in rutas_existentes and t1 not in rutas_torneo
+        agregar_hijo2 = t2 not in rutas_existentes and t2 not in rutas_torneo
+        diferentes_hijos = t1 != t2
+
+        if agregar_hijo1 and agregar_hijo2 and diferentes_hijos:
+            rutas_torneo.add(t1)
+            rutas_torneo.add(t2)
+            # print(f"nueva longitud de rutas torneo: {len(rutas_torneo)}")
+
         # print("padres")
         # print(f"Ruta: {' -> '.join(padre1.ruta)} - Distancia: {padre1.fitness}")
         # print(f"Ruta: {' -> '.join(padre2.ruta)} - Distancia: {padre2.fitness}")
@@ -92,11 +116,7 @@ def seleccion_torneo_cruza(celulas, cantidad_elitismo):
         # print("hijos")
         # print(f"Ruta: {' -> '.join(hijo1)}")
         # print(f"Ruta: {' -> '.join(hijo2)}")
-
-        resultado_cruza.append(hijo1)
-        resultado_cruza.append(hijo2)
-
-    return resultado_cruza
+    return rutas_torneo
 
 
 def cruzar(padre1, padre2):
@@ -125,15 +145,30 @@ def cruzar(padre1, padre2):
     return hijo1, hijo2
 
 
-def mutar(rutas):
+def mutar(rutas_torneo, nueva_generacion):
 
-    size = len(rutas[0])
+    ruta_size = len(list(rutas_torneo)[0])
+    rutas_torneo_copia = list(rutas_torneo)
 
-    for ruta in rutas:
+    for ruta in rutas_torneo_copia:
         if random.random() < tasa_mutacion:
-            for _ in range(ciculos_mutacion):
-                idx1, idx2 = random.sample(range(size), 2)
-                ruta[idx1], ruta[idx2] = ruta[idx2], ruta[idx1]
+            ruta_original = list(ruta)
+            rutas_torneo.remove(ruta)
+
+            while len(rutas_torneo) + len(nueva_generacion) < poblacion_size:
+                ruta_mutar = list(ruta_original)
+
+                for _ in range(ciculos_mutacion):
+                    idx1, idx2 = random.sample(range(ruta_size), 2)
+                    ruta_mutar[idx1], ruta_mutar[idx2] = (
+                        ruta_mutar[idx2],
+                        ruta_mutar[idx1],
+                    )
+                if (
+                    tuple(ruta_mutar) not in rutas_torneo
+                    and tuple(ruta_mutar) not in nueva_generacion
+                ):
+                    rutas_torneo.add(tuple(ruta_mutar))
 
 
 def ejecutar_algoritmo():
