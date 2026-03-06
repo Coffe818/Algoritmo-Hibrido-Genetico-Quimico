@@ -15,7 +15,7 @@ ciculos_mutacion = 5
 
 def cargar_datos():
     global matriz_distancias
-    df = pd.read_csv("Grafo/Grafo.txt")
+    df = pd.read_csv("src/Grafo/Grafo.txt")
 
     for _, fila in df.iterrows():
         origen = str(fila["Origen"])
@@ -171,7 +171,7 @@ def mutar(rutas_torneo, nueva_generacion):
                     rutas_torneo.add(tuple(ruta_mutar))
 
 
-def ejecutar_algoritmo():
+def ejecutar_algoritmo_genetico():
     celulas = generar_poblacion()
     i = 0
     while True:
@@ -185,3 +185,6 @@ def ejecutar_algoritmo():
         print("Promiedio de fitness: ", sum(c.fitness for c in celulas) / len(celulas))
         for celula in celulas:
             print(f"Ruta: {' -> '.join(celula.ruta)} - Distancia: {celula.fitness}")
+        
+        if i >= cantidad_generaciones:
+            break

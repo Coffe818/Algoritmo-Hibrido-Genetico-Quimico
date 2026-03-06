@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "AGHibrido"
+version = "0.1.0"
+description = "Proyecto de Algoritmo Hibrido"
+authors = ["Grimaldo <tu@email.com>"]
+readme = "README.md"
+packages = [{include = "Algoritmo", from = "src"}, {include = "Grafo", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.14"
+pandas = "^3.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
