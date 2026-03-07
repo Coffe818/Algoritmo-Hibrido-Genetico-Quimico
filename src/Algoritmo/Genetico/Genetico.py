@@ -27,7 +27,7 @@ def cargar_datos():
     return nodos
 
 
-def evaluar_ruta(ruta):
+def evaluar_ruta(ruta) -> float:
     distancia_total = 0
 
     for i in range(len(ruta)):
@@ -185,6 +185,6 @@ def ejecutar_algoritmo_genetico():
         print("Promiedio de fitness: ", sum(c.fitness for c in celulas) / len(celulas))
         for celula in celulas:
             print(f"Ruta: {' -> '.join(celula.ruta)} - Distancia: {celula.fitness}")
-        
+
         if i >= cantidad_generaciones:
             break

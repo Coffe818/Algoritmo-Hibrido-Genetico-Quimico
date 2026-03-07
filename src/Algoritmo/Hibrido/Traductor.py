@@ -2,18 +2,19 @@ from Algoritmo.Models.Molecula import Molecula
 from Algoritmo.Models.Celula import Celula
 
 
-class TraductorHibrido:
-    def celula_a_molecula(celula, ke_inicial=1000):
-        return Molecula(celula.ruta, celula.fitness, ke_inicial)
+def celula_a_molecula(celula, ke_inicial=1000):
+    return Molecula(celula.ruta, celula.fitness, ke_inicial)
 
-    def molecula_a_celula(molecula):
-        nueva_celula = Celula(molecula.min_struct)
-        nueva_celula.fitness = molecula.min_pe
-        return nueva_celula
-    
-    def celulas_a_moleculas(celulas, ke_inicial=1000):
-        return [TraductorHibrido.celula_a_molecula(celula, ke_inicial) for celula in celulas]
-    
-    def moleculas_a_celulas(moleculas):
-        return  [TraductorHibrido.molecula_a_celula(molecula) for molecula in moleculas]
 
+def molecula_a_celula(molecula):
+    nueva_celula = Celula(molecula.min_struct)
+    nueva_celula.fitness = molecula.min_pe
+    return nueva_celula
+
+
+def celulas_a_moleculas(celulas, ke_inicial=1000):
+    return [celula_a_molecula(celula, ke_inicial) for celula in celulas]
+
+
+def moleculas_a_celulas(moleculas):
+    return [molecula_a_celula(molecula) for molecula in moleculas]

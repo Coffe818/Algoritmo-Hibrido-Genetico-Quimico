@@ -3,8 +3,9 @@ from time import time
 import pandas as pd
 import random
 from Algoritmo.Models.Celula import Celula
-from Algoritmo.Hibrido.Traductor import TraductorHibrido
+from Algoritmo.Hibrido import Traductor as TraductorHibrido
 from Algoritmo.CRO.CRO import ejecutar_algoritmo_cro
+
 matriz_distancias = {}
 cantidad_generaciones_AG = 10
 poblacion_size = 20
@@ -81,10 +82,8 @@ def seleccionar_cruzar_mutar_evaluar(celulas):
         nueva = Celula(ruta)
         nueva.fitness = evaluar_ruta(ruta)
         nuevas_celulas_torneo.append(nueva)
-        
 
     nuevas_celulas_CRO = procesar_cro(nuevas_celulas_torneo, nueva_generacion)
-    
 
     return list(celulas_elitistas) + list(nuevas_celulas_CRO)
 
@@ -176,25 +175,35 @@ def mutar(rutas_torneo, nueva_generacion):
                 ):
                     rutas_torneo.add(tuple(ruta_mutar))
 
+
 def procesar_cro(nuevas_celulas_torneo, celulas_elitistas):
-    
+
     moleculas = TraductorHibrido.celulas_a_moleculas(nuevas_celulas_torneo)
-    moleculas_finales = ejecutar_algoritmo_cro(moleculas, matriz_distancias, cantidad_colisiones_CRO)
-    celulas_CRO = TraductorHibrido.moleculas_a_celulas(moleculas_finales )
-    
+    moleculas_finales = ejecutar_algoritmo_cro(
+        moleculas, matriz_distancias, cantidad_colisiones_CRO
+    )
+    celulas_CRO = TraductorHibrido.moleculas_a_celulas(moleculas_finales)
+
     celulas_sin_elites = [c for c in celulas_CRO if c not in celulas_elitistas]
-    
-    nuevas_celulas_CRO = set(sorted(celulas_sin_elites, key=lambda c: c.fitness)[:poblacion_size - len(celulas_elitistas)])
-    
+
+    nuevas_celulas_CRO = set(
+        sorted(celulas_sin_elites, key=lambda c: c.fitness)[
+            : poblacion_size - len(celulas_elitistas)
+        ]
+    )
+
     while len(nuevas_celulas_CRO) + len(celulas_elitistas) < poblacion_size:
         padre = random.choice(list(nuevas_celulas_CRO))
-        nueva_variante = mutar(padre.ruta, nuevas_celulas_CRO+celulas_elitistas)
+        nueva_variante = mutar(padre.ruta, nuevas_celulas_CRO + celulas_elitistas)
         nueva_celula = Celula(nueva_variante)
-        
-        if nueva_celula not in nuevas_celulas_CRO and nueva_celula not in celulas_elitistas:
+
+        if (
+            nueva_celula not in nuevas_celulas_CRO
+            and nueva_celula not in celulas_elitistas
+        ):
             nueva_celula.fitness = evaluar_ruta(nueva_celula.ruta)
             nuevas_celulas_CRO.add(nueva_celula)
-        
+
     return nuevas_celulas_CRO
 
 
@@ -212,6 +221,6 @@ def ejecutar_algoritmo_hibrido():
         print("Promiedio de fitness: ", sum(c.fitness for c in celulas) / len(celulas))
         for celula in celulas:
             print(f"Ruta: {' -> '.join(celula.ruta)} - Distancia: {celula.fitness}")
-        
+
         if i >= cantidad_generaciones_AG:
             break
