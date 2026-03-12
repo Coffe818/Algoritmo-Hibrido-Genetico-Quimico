@@ -14,7 +14,7 @@ torneo_size = 5
 tasa_mutacion = 0.1
 ciculos_mutacion = 5
 
-cantidad_colisiones_CRO = 2
+cantidad_colisiones_CRO = cantidad_generaciones_AG * 2
 
 
 def cargar_datos():
@@ -176,6 +176,15 @@ def mutar(rutas_torneo, nueva_generacion):
                     rutas_torneo.add(tuple(ruta_mutar))
 
 
+def mutar_ruta(ruta_original):
+    ruta = list(ruta_original)
+    ruta_size = len(ruta)
+    for _ in range(ciculos_mutacion):
+        idx1, idx2 = random.sample(range(ruta_size), 2)
+        ruta[idx1], ruta[idx2] = ruta[idx2], ruta[idx1]
+    return ruta
+
+
 def procesar_cro(nuevas_celulas_torneo, celulas_elitistas):
 
     moleculas = TraductorHibrido.celulas_a_moleculas(nuevas_celulas_torneo)
@@ -194,7 +203,7 @@ def procesar_cro(nuevas_celulas_torneo, celulas_elitistas):
 
     while len(nuevas_celulas_CRO) + len(celulas_elitistas) < poblacion_size:
         padre = random.choice(list(nuevas_celulas_CRO))
-        nueva_variante = mutar(padre.ruta, nuevas_celulas_CRO + celulas_elitistas)
+        nueva_variante = mutar_ruta(padre.ruta)
         nueva_celula = Celula(nueva_variante)
 
         if (

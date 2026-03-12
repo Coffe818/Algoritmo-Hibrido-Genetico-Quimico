@@ -7,8 +7,8 @@ def celula_a_molecula(celula, ke_inicial=1000):
 
 
 def molecula_a_celula(molecula):
-    nueva_celula = Celula(molecula.min_struct)
-    nueva_celula.fitness = molecula.min_pe
+    nueva_celula = Celula(molecula.ruta)
+    nueva_celula.fitness = molecula.pe
     return nueva_celula
 
 
