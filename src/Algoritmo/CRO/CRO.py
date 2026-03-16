@@ -7,6 +7,7 @@ KELossRate = 0.2
 moleculas = []
 matriz_distancias = {}
 Ke_defult_descomposicion = 100
+cantidad_choque = 15
 
 
 def calcular_pe(ruta):
@@ -41,7 +42,7 @@ def procesos_unimoleculares():
 def sintesis():
     global moleculas, buffer_central
 
-    cantidad = random.randint(2, 3)
+    cantidad = random.randint(2, cantidad_choque)
 
     grupo = random.sample(moleculas, cantidad)
     energia_total_entrada = sum(m.pe + m.ke for m in grupo)
@@ -92,7 +93,7 @@ def sintesis():
 def colision_intermolecular():
     global moleculas
 
-    cantidad = random.randint(2, 3)
+    cantidad = random.randint(2, cantidad_choque)
 
     grupo = random.sample(moleculas, cantidad)
     energia_total_entrada = sum(m.pe + m.ke for m in grupo)
@@ -223,12 +224,12 @@ def colision_pared():
         return
 
 
-def ejecutar_algoritmo_cro(moleculas_cro, matriz_distancias_cro, cantidad_generaciones):
+def ejecutar_algoritmo_cro(moleculas_cro, matriz_distancias_cro, cantidad_iteraciones):
     global moleculas, matriz_distancias
     moleculas = moleculas_cro.copy()
     matriz_distancias = matriz_distancias_cro.copy()
 
-    for generacion in range(cantidad_generaciones):
+    for _ in range(cantidad_iteraciones):
 
         print(f"antes ")
         for i, molecula in enumerate(moleculas):

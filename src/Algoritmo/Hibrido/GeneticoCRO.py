@@ -9,12 +9,12 @@ from Algoritmo.CRO.CRO import ejecutar_algoritmo_cro
 matriz_distancias = {}
 cantidad_generaciones_AG = 10
 poblacion_size = 20
-porcentaje_elitismo = 0.1
+porcentaje_elitismo = 0.3
 torneo_size = 5
 tasa_mutacion = 0.1
 ciculos_mutacion = 5
 
-cantidad_colisiones_CRO = cantidad_generaciones_AG * 2
+cantidad_iteraciones_CRO = cantidad_generaciones_AG * 2
 
 
 def cargar_datos():
@@ -163,7 +163,7 @@ def procesar_cro(nuevas_celulas_torneo, celulas_elitistas):
     ceululas = nuevas_celulas_torneo + list(celulas_elitistas)
     moleculas = TraductorHibrido.celulas_a_moleculas(ceululas)
     moleculas_finales = ejecutar_algoritmo_cro(
-        moleculas, matriz_distancias, cantidad_colisiones_CRO
+        moleculas, matriz_distancias, cantidad_iteraciones_CRO
     )
     celulas_CRO = TraductorHibrido.moleculas_a_celulas(moleculas_finales)
 
