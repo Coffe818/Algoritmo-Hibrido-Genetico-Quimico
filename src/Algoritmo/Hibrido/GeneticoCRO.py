@@ -150,32 +150,6 @@ def cruzar(padre1, padre2):
     return hijo1, hijo2
 
 
-def mutar(rutas_torneo, nueva_generacion):
-
-    ruta_size = len(list(rutas_torneo)[0])
-    rutas_torneo_copia = list(rutas_torneo)
-
-    for ruta in rutas_torneo_copia:
-        if random.random() < tasa_mutacion:
-            ruta_original = list(ruta)
-            rutas_torneo.remove(ruta)
-
-            while len(rutas_torneo) + len(nueva_generacion) < poblacion_size:
-                ruta_mutar = list(ruta_original)
-
-                for _ in range(ciculos_mutacion):
-                    idx1, idx2 = random.sample(range(ruta_size), 2)
-                    ruta_mutar[idx1], ruta_mutar[idx2] = (
-                        ruta_mutar[idx2],
-                        ruta_mutar[idx1],
-                    )
-                if (
-                    tuple(ruta_mutar) not in rutas_torneo
-                    and tuple(ruta_mutar) not in nueva_generacion
-                ):
-                    rutas_torneo.add(tuple(ruta_mutar))
-
-
 def mutar_ruta(ruta_original):
     ruta = list(ruta_original)
     ruta_size = len(ruta)
@@ -186,8 +160,8 @@ def mutar_ruta(ruta_original):
 
 
 def procesar_cro(nuevas_celulas_torneo, celulas_elitistas):
-
-    moleculas = TraductorHibrido.celulas_a_moleculas(nuevas_celulas_torneo)
+    ceululas = nuevas_celulas_torneo + list(celulas_elitistas)
+    moleculas = TraductorHibrido.celulas_a_moleculas(ceululas)
     moleculas_finales = ejecutar_algoritmo_cro(
         moleculas, matriz_distancias, cantidad_colisiones_CRO
     )

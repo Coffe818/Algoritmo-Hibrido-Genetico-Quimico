@@ -2,7 +2,7 @@ from Algoritmo.Models.Molecula import Molecula
 from Algoritmo.Models.Celula import Celula
 
 
-def celula_a_molecula(celula, ke_inicial=1000):
+def celula_a_molecula(celula, ke_inicial):
     return Molecula(celula.ruta, celula.fitness, ke_inicial)
 
 
@@ -12,7 +12,7 @@ def molecula_a_celula(molecula):
     return nueva_celula
 
 
-def celulas_a_moleculas(celulas, ke_inicial=1000):
+def celulas_a_moleculas(celulas, ke_inicial=100):
     return [celula_a_molecula(celula, ke_inicial) for celula in celulas]
 
 
