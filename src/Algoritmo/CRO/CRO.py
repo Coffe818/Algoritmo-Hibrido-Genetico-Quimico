@@ -2,12 +2,12 @@ import random
 
 from Algoritmo.Models.Molecula import Molecula
 
-buffer_central = 10000
+buffer_central = 0
 KELossRate = 0.2
 moleculas = []
 matriz_distancias = {}
 Ke_defult_descomposicion = 100
-cantidad_choque = 15
+cantidad_choque_porsentaje = 0.3
 
 
 def calcular_pe(ruta):
@@ -23,26 +23,27 @@ def calcular_pe(ruta):
 
     return pe
 
+    # def decidir1(func_a, func_b):
+    #     if random.random() < 0.5:
+    #         func_a()
+    #     else:
+    #         func_b()
 
-def decidir(func_a, func_b):
-    if random.random() < 0.5:
-        func_a()
-    else:
-        func_b()
+    # def procesos_multimoleculares():
+    #     decidir(sintesis, colision_intermolecular)
 
-
-def procesos_multimoleculares():
-    decidir(sintesis, colision_intermolecular)
-
-
-def procesos_unimoleculares():
+    # def procesos_unimoleculares():
     decidir(descomposicion, colision_pared)
 
 
 def sintesis():
+    # print("Ejecutando síntesis")
     global moleculas, buffer_central
 
-    cantidad = random.randint(2, cantidad_choque)
+    choque_moleculas = int(len(moleculas) * cantidad_choque_porsentaje)
+    if choque_moleculas < 2:
+        return
+    cantidad = random.randint(2, choque_moleculas)
 
     grupo = random.sample(moleculas, cantidad)
     energia_total_entrada = sum(m.pe + m.ke for m in grupo)
@@ -50,17 +51,18 @@ def sintesis():
     porcion = len(grupo[1].ruta) // cantidad
     porcion_inicio = 0
     porcion_final = porcion
-    nueva_ruta = []
+    nueva_ruta = [None] * len(grupo[0].ruta)
 
     for molecula_actual in grupo:
         molecula_filtrada = [
             nodo for nodo in molecula_actual.ruta if nodo not in nueva_ruta
         ]
 
-        for nodo in molecula_filtrada[0:porcion]:
-            nueva_ruta.append(nodo)
-
-        print(nueva_ruta)
+        for i, nodo in enumerate(molecula_filtrada[0:porcion]):
+            for j in range(len(nueva_ruta)):
+                if nueva_ruta[j] is None:
+                    nueva_ruta[j] = nodo
+                    break
 
     if nueva_ruta.count(None) > 0:
 
@@ -91,9 +93,12 @@ def sintesis():
 
 
 def colision_intermolecular():
+    # print("Ejecutando colisión intermolecular")
     global moleculas
-
-    cantidad = random.randint(2, cantidad_choque)
+    choque_moleculas = int(len(moleculas) * cantidad_choque_porsentaje)
+    if choque_moleculas < 2:
+        return
+    cantidad = random.randint(2, choque_moleculas)
 
     grupo = random.sample(moleculas, cantidad)
     energia_total_entrada = sum(m.pe + m.ke for m in grupo)
@@ -104,23 +109,23 @@ def colision_intermolecular():
         companeras = [m for m in grupo if m != molecula_actual]
         nueva_ruta = [None] * len(molecula_actual.ruta)
         pe_nueva = 0
+        punto1 = random.randint(1, len(molecula_actual.ruta) - 2)
+        punto2 = random.randint(1, len(molecula_actual.ruta) - 2)
+        if punto1 == punto2:
+            punto2 = (punto1 + 5) % len(molecula_actual.ruta)
+
+        if punto1 > punto2:
+            punto1, punto2 = punto2, punto1
+
+        nueva_ruta[punto1:punto2] = molecula_actual.ruta[punto1:punto2]
+
         for companera in companeras:
-
-            punto1 = random.randint(1, len(molecula_actual.ruta) - 2)
-            punto2 = random.randint(1, len(molecula_actual.ruta) - 2)
-            if punto1 == punto2:
-                punto2 = (punto1 + 5) % len(molecula_actual.ruta)
-
-            if punto1 > punto2:
-                punto1, punto2 = punto2, punto1
-
-            nueva_ruta[punto1:punto2] = molecula_actual.ruta[punto1:punto2]
 
             para_rellenar = [nodo for nodo in companera.ruta if nodo not in nueva_ruta]
 
             for i in range(len(nueva_ruta)):
                 if nueva_ruta[i] is None:
-                    nueva_ruta[i] = para_rellenar.pop(0)
+                    nueva_ruta[i] = para_rellenar.pop()
 
             pe_nueva = calcular_pe(nueva_ruta)
             energia_total_requerida += pe_nueva
@@ -148,6 +153,7 @@ def colision_intermolecular():
 
 def descomposicion():
     global buffer_central
+    # print("Ejecutando descomposición")
 
     molecula_original = random.choice(moleculas)
 
@@ -169,7 +175,7 @@ def descomposicion():
     def guardar_moleculas(ke_restante):
         global moleculas
         moleculas.remove(molecula_original)
-        molecula1 = Molecula(ruta1, pe1, ke_restante)
+        molecula1 = Molecula(ruta1, pe1, ke_restante // 2)
         molecula2 = Molecula(ruta2, pe2, ke_restante // 2)
         moleculas.append(molecula1)
         moleculas.append(molecula2)
@@ -193,7 +199,7 @@ def descomposicion():
 
 def colision_pared():
     global buffer_central
-
+    # print("Ejecutando colisión pared")
     molecula_original = random.choice(moleculas)
     nueva_ruta = list(molecula_original.ruta)
 
@@ -224,25 +230,38 @@ def colision_pared():
         return
 
 
+def calcular_buffer_central():
+    global buffer_central
+    for molecula in moleculas:
+        energia_extraida = molecula.ke * 0.2
+        molecula.ke -= energia_extraida
+        buffer_central += energia_extraida
+
+
 def ejecutar_algoritmo_cro(moleculas_cro, matriz_distancias_cro, cantidad_iteraciones):
     global moleculas, matriz_distancias
     moleculas = moleculas_cro.copy()
     matriz_distancias = matriz_distancias_cro.copy()
+    # print("Iniciando CRO con", len(moleculas), "moleculas")
+    # print("ante cro")
+    # for molecula in moleculas:
+    #     print("Molecula:", molecula.ruta, "PE:", molecula.pe, "KE:", molecula.ke)
+    calcular_buffer_central()
+    for _ in range(int(cantidad_iteraciones)):
+        proceso = random.random()
+        if proceso >= 0 and proceso < 0.20:
+            sintesis()
+        elif proceso >= 0.20 and proceso < 0.40:
+            colision_intermolecular()
+        elif proceso >= 0.40 and proceso < 0.70:
+            descomposicion()
+        else:
+            colision_pared()
+        # decidir(procesos_multimoleculares, procesos_unimoleculares)
 
-    for _ in range(cantidad_iteraciones):
-
-        print(f"antes ")
-        for i, molecula in enumerate(moleculas):
-            print(
-                f"Molecula {i}: {molecula.ruta}, PE: {molecula.pe}, KE: {molecula.ke}"
-            )
-
-        decidir(procesos_multimoleculares, procesos_unimoleculares)
-
-        print(f"despuues ")
-        for i, molecula in enumerate(moleculas):
-            print(
-                f"Molecula {i}: {molecula.ruta}, PE: {molecula.pe}, KE: {molecula.ke}"
-            )
+    # print("después de cro")
+    # for molecula in moleculas:
+    #     print("Molecula:", molecula.ruta, "PE:", molecula.pe, "KE:", molecula.ke)
+    # print("CRO finalizada, cantidad de moleculas:", len(moleculas))
 
     return moleculas

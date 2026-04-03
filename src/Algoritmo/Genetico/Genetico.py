@@ -1,3 +1,4 @@
+import csv
 from time import time
 
 import pandas as pd
@@ -5,9 +6,9 @@ import random
 from Algoritmo.Models.Celula import Celula
 
 matriz_distancias = {}
-cantidad_generaciones = 10
-poblacion_size = 20
-porcentaje_elitismo = 0.1
+cantidad_generaciones_AG = 5000
+poblacion_size = 1000
+porcentaje_elitismo = 0.3
 torneo_size = 5
 tasa_mutacion = 0.1
 ciculos_mutacion = 5
@@ -172,19 +173,28 @@ def mutar(rutas_torneo, nueva_generacion):
 
 
 def ejecutar_algoritmo_genetico():
-    celulas = generar_poblacion()
-    i = 0
-    while True:
-        i += 1
 
-        print(f"Generacion {i}")
-        timer = time()
-        celulas = seleccionar_cruzar_mutar_evaluar(celulas)
-        timer = time() - timer
-        print(f"Tiempo de generacion: {timer:.10f} segundos")
-        print("Promiedio de fitness: ", sum(c.fitness for c in celulas) / len(celulas))
-        for celula in celulas:
-            print(f"Ruta: {' -> '.join(celula.ruta)} - Distancia: {celula.fitness}")
+    for i in range(5):
+        acrhivo = f"resultadosAG_{i+1}.csv"
+        with open(f"resultadosAG_{i+1}.csv", mode="w", newline="") as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(["iteracion", "tiempo", "promedio", "mejor", "peor"])
+            print(
+                f"=================== Ejecutando algoritmo genético, resultados {i+1} / 5 ==================="
+            )
+            celulas = []
+            celulas = generar_poblacion()
 
-        if i >= cantidad_generaciones:
-            break
+            for i in range(cantidad_generaciones_AG):
+                print(f"Generacion {i}/{cantidad_generaciones_AG} / {acrhivo}")
+                # print(f"Generacion {i}")
+                timer = time()
+                celulas = seleccionar_cruzar_mutar_evaluar(celulas)
+                timer = time() - timer
+
+                fitness_values = [c.fitness for c in celulas]
+                promedio = sum(fitness_values) / len(celulas)
+                mejor = min(fitness_values)
+                peor = max(fitness_values)
+
+                writer.writerow([i, timer, promedio, mejor, peor])
