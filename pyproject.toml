@@ -9,6 +9,8 @@ packages = [{include = "Algoritmo", from = "src"}, {include = "Grafo", from = "s
 [tool.poetry.dependencies]
 python = "^3.14"
 pandas = "^3.0.1"
+googlemaps = "^4.10.0"
+python-dotenv = "^1.2.2"
 
 [build-system]
 requires = ["poetry-core"]

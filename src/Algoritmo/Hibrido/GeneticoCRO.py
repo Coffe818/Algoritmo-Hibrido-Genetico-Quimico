@@ -8,27 +8,27 @@ from Algoritmo.Hibrido import Traductor as TraductorHibrido
 from Algoritmo.CRO.CRO import ejecutar_algoritmo_cro
 
 matriz_distancias = {}
-cantidad_generaciones_AG = 5000
-poblacion_size = 1000
-porcentaje_elitismo = 0.3
+cantidad_generaciones_AG = 2000
+poblacion_size = 100
+porcentaje_elitismo = 0.1
 torneo_size = 5
 tasa_mutacion = 0.1
 ciculos_mutacion = 5
 
-cantidad_iteraciones_CRO = 100
+cantidad_iteraciones_CRO = 10
 
 
 def cargar_datos():
     global matriz_distancias
-    df = pd.read_csv("src/Grafo/Grafo.txt")
+    df = pd.read_csv("src/Grafo/Grafo_Coahuila_Final.txt")
 
     for _, fila in df.iterrows():
-        origen = str(fila["Origen"])
-        destino = str(fila["Destino"])
-        distancia = float(fila["Distancia"])
+        origen = int(fila["ID_Org"])
+        destino = int(fila["ID_Dest"])
+        distancia = float(fila["Dist_KM"])
         matriz_distancias[(origen, destino)] = distancia
 
-    nodos = pd.unique(df[["Origen", "Destino"]].values.ravel()).tolist()
+    nodos = pd.unique(df[["ID_Org", "ID_Dest"]].values.ravel()).tolist()
     return nodos
 
 

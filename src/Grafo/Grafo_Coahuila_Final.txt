@@ -1,0 +1,1407 @@
+ID_Org,Nom_Org,ID_Dest,Nom_Dest,Dist_KM
+001,Abasolo,002,Acuña,281.0660
+001,Abasolo,003,Allende,164.0050
+001,Abasolo,004,Arteaga,240.5310
+001,Abasolo,005,Candela,146.7900
+001,Abasolo,006,Castaños,54.9530
+001,Abasolo,007,Cuatro Ciénegas,77.9790
+001,Abasolo,008,Escobedo,6.5330
+001,Abasolo,009,Francisco I. Madero,295.6550
+001,Abasolo,010,Frontera,36.1330
+001,Abasolo,011,General Cepeda,234.8740
+001,Abasolo,012,Guerrero,221.1130
+001,Abasolo,013,Hidalgo,276.3000
+001,Abasolo,014,Jiménez,261.9320
+001,Abasolo,015,Juárez,104.3130
+001,Abasolo,016,Lamadrid,53.2170
+001,Abasolo,017,Matamoros,313.5700
+001,Abasolo,018,Monclova,40.2820
+001,Abasolo,019,Morelos,171.9390
+001,Abasolo,020,Múzquiz,119.9790
+001,Abasolo,021,Nadadores,25.1730
+001,Abasolo,022,Nava,176.7590
+001,Abasolo,023,Ocampo,127.6830
+001,Abasolo,024,Parras,301.0110
+001,Abasolo,025,Piedras Negras,220.0150
+001,Abasolo,026,Progreso,64.2610
+001,Abasolo,027,Ramos Arizpe,223.0640
+001,Abasolo,028,Sabinas,94.1170
+001,Abasolo,029,Sacramento,41.9610
+001,Abasolo,030,Saltillo,237.1980
+001,Abasolo,031,San Buenaventura,19.7540
+001,Abasolo,032,San Juan de Sabinas,107.6660
+001,Abasolo,033,San Pedro,263.7020
+001,Abasolo,034,Sierra Mojada,273.3520
+001,Abasolo,035,Torreón,325.1990
+001,Abasolo,036,Viesca,324.0730
+001,Abasolo,037,Villa Unión,181.4650
+001,Abasolo,038,Zaragoza,181.4730
+002,Acuña,001,Abasolo,278.5210
+002,Acuña,003,Allende,117.0030
+002,Acuña,004,Arteaga,501.2380
+002,Acuña,005,Candela,383.2840
+002,Acuña,006,Castaños,315.6600
+002,Acuña,007,Cuatro Ciénegas,356.2560
+002,Acuña,008,Escobedo,277.9260
+002,Acuña,009,Francisco I. Madero,573.9320
+002,Acuña,010,Frontera,301.6070
+002,Acuña,011,General Cepeda,495.5810
+002,Acuña,012,Guerrero,139.1980
+002,Acuña,013,Hidalgo,217.9270
+002,Acuña,014,Jiménez,46.5410
+002,Acuña,015,Juárez,234.4230
+002,Acuña,016,Lamadrid,331.4940
+002,Acuña,017,Matamoros,591.8470
+002,Acuña,018,Monclova,299.8480
+002,Acuña,019,Morelos,109.1820
+002,Acuña,020,Múzquiz,210.5710
+002,Acuña,021,Nadadores,303.4500
+002,Acuña,022,Nava,121.7800
+002,Acuña,023,Ocampo,405.9590
+002,Acuña,024,Parras,561.7180
+002,Acuña,025,Piedras Negras,92.9100
+002,Acuña,026,Progreso,263.3570
+002,Acuña,027,Ramos Arizpe,483.7720
+002,Acuña,028,Sabinas,185.9770
+002,Acuña,029,Sacramento,320.2380
+002,Acuña,030,Saltillo,497.9050
+002,Acuña,031,San Buenaventura,298.0310
+002,Acuña,032,San Juan de Sabinas,175.8560
+002,Acuña,033,San Pedro,541.9790
+002,Acuña,034,Sierra Mojada,551.6280
+002,Acuña,035,Torreón,603.4760
+002,Acuña,036,Viesca,602.3500
+002,Acuña,037,Villa Unión,137.1140
+002,Acuña,038,Zaragoza,100.1250
+003,Allende,001,Abasolo,163.9310
+003,Allende,002,Acuña,117.1570
+003,Allende,004,Arteaga,386.6480
+003,Allende,005,Candela,268.6940
+003,Allende,006,Castaños,201.0700
+003,Allende,007,Cuatro Ciénegas,241.6660
+003,Allende,008,Escobedo,163.3360
+003,Allende,009,Francisco I. Madero,459.3420
+003,Allende,010,Frontera,187.0170
+003,Allende,011,General Cepeda,380.9910
+003,Allende,012,Guerrero,59.9660
+003,Allende,013,Hidalgo,141.0140
+003,Allende,014,Jiménez,100.7240
+003,Allende,015,Juárez,119.8330
+003,Allende,016,Lamadrid,216.9040
+003,Allende,017,Matamoros,477.2570
+003,Allende,018,Monclova,185.2580
+003,Allende,019,Morelos,8.0310
+003,Allende,020,Múzquiz,95.9810
+003,Allende,021,Nadadores,188.8600
+003,Allende,022,Nava,15.5500
+003,Allende,023,Ocampo,291.3700
+003,Allende,024,Parras,447.1280
+003,Allende,025,Piedras Negras,58.8070
+003,Allende,026,Progreso,148.7670
+003,Allende,027,Ramos Arizpe,369.1820
+003,Allende,028,Sabinas,71.3870
+003,Allende,029,Sacramento,205.6480
+003,Allende,030,Saltillo,383.3150
+003,Allende,031,San Buenaventura,183.4410
+003,Allende,032,San Juan de Sabinas,61.2660
+003,Allende,033,San Pedro,427.3890
+003,Allende,034,Sierra Mojada,437.0380
+003,Allende,035,Torreón,488.8860
+003,Allende,036,Viesca,487.7600
+003,Allende,037,Villa Unión,20.3180
+003,Allende,038,Zaragoza,17.5640
+004,Arteaga,001,Abasolo,242.3950
+004,Arteaga,002,Acuña,505.4410
+004,Arteaga,003,Allende,388.3790
+004,Arteaga,005,Candela,227.3690
+004,Arteaga,006,Castaños,188.7230
+004,Arteaga,007,Cuatro Ciénegas,282.4570
+004,Arteaga,008,Escobedo,265.9060
+004,Arteaga,009,Francisco I. Madero,262.9220
+004,Arteaga,010,Frontera,205.0870
+004,Arteaga,011,General Cepeda,80.2780
+004,Arteaga,012,Guerrero,418.6840
+004,Arteaga,013,Hidalgo,343.3800
+004,Arteaga,014,Jiménez,486.3070
+004,Arteaga,015,Juárez,328.6880
+004,Arteaga,016,Lamadrid,257.6960
+004,Arteaga,017,Matamoros,249.9670
+004,Arteaga,018,Monclova,200.7950
+004,Arteaga,019,Morelos,396.3140
+004,Arteaga,020,Múzquiz,344.3530
+004,Arteaga,021,Nadadores,229.6520
+004,Arteaga,022,Nava,401.1330
+004,Arteaga,023,Ocampo,332.1610
+004,Arteaga,024,Parras,163.7970
+004,Arteaga,025,Piedras Negras,444.3900
+004,Arteaga,026,Progreso,288.6360
+004,Arteaga,027,Ramos Arizpe,22.6270
+004,Arteaga,028,Sabinas,318.4920
+004,Arteaga,029,Sacramento,246.4390
+004,Arteaga,030,Saltillo,16.7560
+004,Arteaga,031,San Buenaventura,225.8020
+004,Arteaga,032,San Juan de Sabinas,332.0410
+004,Arteaga,033,San Pedro,229.9120
+004,Arteaga,034,Sierra Mojada,462.5310
+004,Arteaga,035,Torreón,272.7740
+004,Arteaga,036,Viesca,252.2740
+004,Arteaga,037,Villa Unión,405.8390
+004,Arteaga,038,Zaragoza,405.8470
+005,Candela,001,Abasolo,146.7300
+005,Candela,002,Acuña,385.6690
+005,Candela,003,Allende,268.6080
+005,Candela,004,Arteaga,227.4630
+005,Candela,006,Castaños,112.3620
+005,Candela,007,Cuatro Ciénegas,176.8130
+005,Candela,008,Escobedo,146.1340
+005,Candela,009,Francisco I. Madero,394.4890
+005,Candela,010,Frontera,98.4430
+005,Candela,011,General Cepeda,286.8590
+005,Candela,012,Guerrero,248.0270
+005,Candela,013,Hidalgo,172.7230
+005,Candela,014,Jiménez,341.0020
+005,Candela,015,Juárez,173.0180
+005,Candela,016,Lamadrid,152.0510
+005,Candela,017,Matamoros,412.4040
+005,Candela,018,Monclova,96.7860
+005,Candela,019,Morelos,276.5430
+005,Candela,020,Múzquiz,224.5820
+005,Candela,021,Nadadores,124.0070
+005,Candela,022,Nava,281.3620
+005,Candela,023,Ocampo,226.5170
+005,Candela,024,Parras,358.4190
+005,Candela,025,Piedras Negras,298.1560
+005,Candela,026,Progreso,168.8640
+005,Candela,027,Ramos Arizpe,213.7650
+005,Candela,028,Sabinas,198.7200
+005,Candela,029,Sacramento,140.7950
+005,Candela,030,Saltillo,227.8990
+005,Candela,031,San Buenaventura,120.1580
+005,Candela,032,San Juan de Sabinas,212.2690
+005,Candela,033,San Pedro,362.5360
+005,Candela,034,Sierra Mojada,372.1860
+005,Candela,035,Torreón,424.0330
+005,Candela,036,Viesca,422.9070
+005,Candela,037,Villa Unión,286.0680
+005,Candela,038,Zaragoza,286.0760
+006,Castaños,001,Abasolo,55.0290
+006,Castaños,002,Acuña,318.0750
+006,Castaños,003,Allende,201.0130
+006,Castaños,004,Arteaga,187.0150
+006,Castaños,005,Candela,112.2850
+006,Castaños,007,Cuatro Ciénegas,95.0920
+006,Castaños,008,Escobedo,78.5400
+006,Castaños,009,Francisco I. Madero,312.7670
+006,Castaños,010,Frontera,17.7210
+006,Castaños,011,General Cepeda,181.3570
+006,Castaños,012,Guerrero,258.1210
+006,Castaños,013,Hidalgo,285.0210
+006,Castaños,014,Jiménez,298.9410
+006,Castaños,015,Juárez,141.3220
+006,Castaños,016,Lamadrid,70.3300
+006,Castaños,017,Matamoros,333.6630
+006,Castaños,018,Monclova,13.4290
+006,Castaños,019,Morelos,208.9480
+006,Castaños,020,Múzquiz,156.9880
+006,Castaños,021,Nadadores,42.2860
+006,Castaños,022,Nava,213.7670
+006,Castaños,023,Ocampo,144.7950
+006,Castaños,024,Parras,247.4940
+006,Castaños,025,Piedras Negras,257.0240
+006,Castaños,026,Progreso,101.2700
+006,Castaños,027,Ramos Arizpe,169.5480
+006,Castaños,028,Sabinas,131.1260
+006,Castaños,029,Sacramento,59.0730
+006,Castaños,030,Saltillo,183.6810
+006,Castaños,031,San Buenaventura,38.4360
+006,Castaños,032,San Juan de Sabinas,144.6750
+006,Castaños,033,San Pedro,280.8150
+006,Castaños,034,Sierra Mojada,290.4640
+006,Castaños,035,Torreón,356.4710
+006,Castaños,036,Viesca,335.9700
+006,Castaños,037,Villa Unión,218.4730
+006,Castaños,038,Zaragoza,218.4810
+007,Cuatro Ciénegas,001,Abasolo,79.1390
+007,Cuatro Ciénegas,002,Acuña,359.9610
+007,Cuatro Ciénegas,003,Allende,242.9000
+007,Cuatro Ciénegas,004,Arteaga,281.0800
+007,Cuatro Ciénegas,005,Candela,177.4440
+007,Cuatro Ciénegas,006,Castaños,95.5020
+007,Cuatro Ciénegas,008,Escobedo,86.0310
+007,Cuatro Ciénegas,009,Francisco I. Madero,218.0730
+007,Cuatro Ciénegas,010,Frontera,76.6820
+007,Cuatro Ciénegas,011,General Cepeda,275.4230
+007,Cuatro Ciénegas,012,Guerrero,300.0080
+007,Cuatro Ciénegas,013,Hidalgo,350.1800
+007,Cuatro Ciénegas,014,Jiménez,340.8270
+007,Cuatro Ciénegas,015,Juárez,183.2080
+007,Cuatro Ciénegas,016,Lamadrid,33.5840
+007,Cuatro Ciénegas,017,Matamoros,235.9880
+007,Cuatro Ciénegas,018,Monclova,80.8310
+007,Cuatro Ciénegas,019,Morelos,250.8350
+007,Cuatro Ciénegas,020,Múzquiz,198.8740
+007,Cuatro Ciénegas,021,Nadadores,53.7570
+007,Cuatro Ciénegas,022,Nava,255.6540
+007,Cuatro Ciénegas,023,Ocampo,50.0950
+007,Cuatro Ciénegas,024,Parras,308.3370
+007,Cuatro Ciénegas,025,Piedras Negras,298.9110
+007,Cuatro Ciénegas,026,Progreso,143.1560
+007,Cuatro Ciénegas,027,Ramos Arizpe,263.6130
+007,Cuatro Ciénegas,028,Sabinas,173.0120
+007,Cuatro Ciénegas,029,Sacramento,36.5440
+007,Cuatro Ciénegas,030,Saltillo,277.7470
+007,Cuatro Ciénegas,031,San Buenaventura,60.2330
+007,Cuatro Ciénegas,032,San Juan de Sabinas,186.5610
+007,Cuatro Ciénegas,033,San Pedro,186.1200
+007,Cuatro Ciénegas,034,Sierra Mojada,195.7640
+007,Cuatro Ciénegas,035,Torreón,247.6170
+007,Cuatro Ciénegas,036,Viesca,246.4910
+007,Cuatro Ciénegas,037,Villa Unión,260.3600
+007,Cuatro Ciénegas,038,Zaragoza,260.3680
+008,Escobedo,001,Abasolo,6.5330
+008,Escobedo,002,Acuña,280.4710
+008,Escobedo,003,Allende,163.4090
+008,Escobedo,004,Arteaga,264.1500
+008,Escobedo,005,Candela,146.1950
+008,Escobedo,006,Castaños,78.5710
+008,Escobedo,007,Cuatro Ciénegas,84.8700
+008,Escobedo,009,Francisco I. Madero,302.5460
+008,Escobedo,010,Frontera,43.0240
+008,Escobedo,011,General Cepeda,258.4920
+008,Escobedo,012,Guerrero,220.5180
+008,Escobedo,013,Hidalgo,275.7050
+008,Escobedo,014,Jiménez,261.3370
+008,Escobedo,015,Juárez,103.7180
+008,Escobedo,016,Lamadrid,60.1080
+008,Escobedo,017,Matamoros,320.4610
+008,Escobedo,018,Monclova,62.7590
+008,Escobedo,019,Morelos,171.3440
+008,Escobedo,020,Múzquiz,119.3840
+008,Escobedo,021,Nadadores,32.0650
+008,Escobedo,022,Nava,176.1630
+008,Escobedo,023,Ocampo,134.5740
+008,Escobedo,024,Parras,324.6290
+008,Escobedo,025,Piedras Negras,219.4200
+008,Escobedo,026,Progreso,63.6660
+008,Escobedo,027,Ramos Arizpe,246.6830
+008,Escobedo,028,Sabinas,93.5220
+008,Escobedo,029,Sacramento,48.8520
+008,Escobedo,030,Saltillo,260.8160
+008,Escobedo,031,San Buenaventura,26.6450
+008,Escobedo,032,San Juan de Sabinas,107.0710
+008,Escobedo,033,San Pedro,270.5930
+008,Escobedo,034,Sierra Mojada,280.2430
+008,Escobedo,035,Torreón,332.0900
+008,Escobedo,036,Viesca,330.9640
+008,Escobedo,037,Villa Unión,180.8700
+008,Escobedo,038,Zaragoza,180.8770
+009,Francisco I. Madero,001,Abasolo,295.1160
+009,Francisco I. Madero,002,Acuña,575.9380
+009,Francisco I. Madero,003,Allende,458.8770
+009,Francisco I. Madero,004,Arteaga,264.3910
+009,Francisco I. Madero,005,Candela,393.4210
+009,Francisco I. Madero,006,Castaños,311.4790
+009,Francisco I. Madero,007,Cuatro Ciénegas,216.7640
+009,Francisco I. Madero,008,Escobedo,302.0080
+009,Francisco I. Madero,010,Frontera,292.6590
+009,Francisco I. Madero,011,General Cepeda,234.0240
+009,Francisco I. Madero,012,Guerrero,515.9850
+009,Francisco I. Madero,013,Hidalgo,586.7610
+009,Francisco I. Madero,014,Jiménez,556.8040
+009,Francisco I. Madero,015,Juárez,399.1850
+009,Francisco I. Madero,016,Lamadrid,249.5610
+009,Francisco I. Madero,017,Matamoros,44.9590
+009,Francisco I. Madero,018,Monclova,296.8080
+009,Francisco I. Madero,019,Morelos,466.8110
+009,Francisco I. Madero,020,Múzquiz,414.8510
+009,Francisco I. Madero,021,Nadadores,269.7330
+009,Francisco I. Madero,022,Nava,471.6310
+009,Francisco I. Madero,023,Ocampo,266.4680
+009,Francisco I. Madero,024,Parras,154.8120
+009,Francisco I. Madero,025,Piedras Negras,514.8870
+009,Francisco I. Madero,026,Progreso,359.1330
+009,Francisco I. Madero,027,Ramos Arizpe,262.6270
+009,Francisco I. Madero,028,Sabinas,388.9890
+009,Francisco I. Madero,029,Sacramento,252.5210
+009,Francisco I. Madero,030,Saltillo,249.7820
+009,Francisco I. Madero,031,San Buenaventura,276.2090
+009,Francisco I. Madero,032,San Juan de Sabinas,402.5380
+009,Francisco I. Madero,033,San Pedro,31.6740
+009,Francisco I. Madero,034,Sierra Mojada,221.9560
+009,Francisco I. Madero,035,Torreón,34.7510
+009,Francisco I. Madero,036,Viesca,96.2810
+009,Francisco I. Madero,037,Villa Unión,476.3370
+009,Francisco I. Madero,038,Zaragoza,476.3440
+010,Frontera,001,Abasolo,36.1620
+010,Frontera,002,Acuña,306.0110
+010,Frontera,003,Allende,188.9490
+010,Frontera,004,Arteaga,202.8420
+010,Frontera,005,Candela,98.9770
+010,Frontera,006,Castaños,17.2640
+010,Frontera,007,Cuatro Ciénegas,76.2250
+010,Frontera,008,Escobedo,43.0530
+010,Frontera,009,Francisco I. Madero,293.9010
+010,Frontera,011,General Cepeda,197.1850
+010,Frontera,012,Guerrero,246.0580
+010,Frontera,013,Hidalgo,271.7120
+010,Frontera,014,Jiménez,286.8770
+010,Frontera,015,Juárez,129.2580
+010,Frontera,016,Lamadrid,51.4630
+010,Frontera,017,Matamoros,311.8160
+010,Frontera,018,Monclova,4.4780
+010,Frontera,019,Morelos,196.8840
+010,Frontera,020,Múzquiz,144.9240
+010,Frontera,021,Nadadores,23.4190
+010,Frontera,022,Nava,201.7030
+010,Frontera,023,Ocampo,125.9280
+010,Frontera,024,Parras,263.3210
+010,Frontera,025,Piedras Negras,244.9600
+010,Frontera,026,Progreso,89.2060
+010,Frontera,027,Ramos Arizpe,185.3750
+010,Frontera,028,Sabinas,119.0620
+010,Frontera,029,Sacramento,40.2060
+010,Frontera,030,Saltillo,199.5090
+010,Frontera,031,San Buenaventura,19.5690
+010,Frontera,032,San Juan de Sabinas,132.6110
+010,Frontera,033,San Pedro,261.9480
+010,Frontera,034,Sierra Mojada,271.5970
+010,Frontera,035,Torreón,323.4440
+010,Frontera,036,Viesca,322.3190
+010,Frontera,037,Villa Unión,206.4100
+010,Frontera,038,Zaragoza,206.4170
+011,General Cepeda,001,Abasolo,235.1100
+011,General Cepeda,002,Acuña,498.1560
+011,General Cepeda,003,Allende,381.0940
+011,General Cepeda,004,Arteaga,80.6250
+011,General Cepeda,005,Candela,286.2460
+011,General Cepeda,006,Castaños,181.4380
+011,General Cepeda,007,Cuatro Ciénegas,275.1730
+011,General Cepeda,008,Escobedo,258.6210
+011,General Cepeda,009,Francisco I. Madero,232.7190
+011,General Cepeda,010,Frontera,197.8020
+011,General Cepeda,012,Guerrero,478.2990
+011,General Cepeda,013,Hidalgo,402.9950
+011,General Cepeda,014,Jiménez,479.0220
+011,General Cepeda,015,Juárez,321.4030
+011,General Cepeda,016,Lamadrid,250.4110
+011,General Cepeda,017,Matamoros,219.7640
+011,General Cepeda,018,Monclova,193.5100
+011,General Cepeda,019,Morelos,389.0290
+011,General Cepeda,020,Múzquiz,337.0690
+011,General Cepeda,021,Nadadores,222.3670
+011,General Cepeda,022,Nava,393.8480
+011,General Cepeda,023,Ocampo,324.8760
+011,General Cepeda,024,Parras,79.8000
+011,General Cepeda,025,Piedras Negras,437.1050
+011,General Cepeda,026,Progreso,281.3510
+011,General Cepeda,027,Ramos Arizpe,78.8610
+011,General Cepeda,028,Sabinas,311.2070
+011,General Cepeda,029,Sacramento,239.1540
+011,General Cepeda,030,Saltillo,66.0150
+011,General Cepeda,031,San Buenaventura,218.5170
+011,General Cepeda,032,San Juan de Sabinas,324.7560
+011,General Cepeda,033,San Pedro,199.7090
+011,General Cepeda,034,Sierra Mojada,432.3280
+011,General Cepeda,035,Torreón,242.5710
+011,General Cepeda,036,Viesca,222.0710
+011,General Cepeda,037,Villa Unión,398.5540
+011,General Cepeda,038,Zaragoza,398.5620
+012,Guerrero,001,Abasolo,221.3330
+012,Guerrero,002,Acuña,139.1540
+012,Guerrero,003,Allende,60.0220
+012,Guerrero,004,Arteaga,419.3070
+012,Guerrero,005,Candela,247.1390
+012,Guerrero,006,Castaños,258.4720
+012,Guerrero,007,Cuatro Ciénegas,299.0680
+012,Guerrero,008,Escobedo,220.7380
+012,Guerrero,009,Francisco I. Madero,516.7440
+012,Guerrero,010,Frontera,244.4190
+012,Guerrero,011,General Cepeda,477.4630
+012,Guerrero,013,Hidalgo,79.6270
+012,Guerrero,014,Jiménez,93.8730
+012,Guerrero,015,Juárez,177.2350
+012,Guerrero,016,Lamadrid,274.3060
+012,Guerrero,017,Matamoros,534.6590
+012,Guerrero,018,Monclova,242.6590
+012,Guerrero,019,Morelos,85.8630
+012,Guerrero,020,Múzquiz,153.3830
+012,Guerrero,021,Nadadores,246.2620
+012,Guerrero,022,Nava,74.7610
+012,Guerrero,023,Ocampo,348.7710
+012,Guerrero,024,Parras,504.5300
+012,Guerrero,025,Piedras Negras,51.0270
+012,Guerrero,026,Progreso,206.1690
+012,Guerrero,027,Ramos Arizpe,405.6090
+012,Guerrero,028,Sabinas,128.7880
+012,Guerrero,029,Sacramento,263.0490
+012,Guerrero,030,Saltillo,419.7430
+012,Guerrero,031,San Buenaventura,240.8430
+012,Guerrero,032,San Juan de Sabinas,118.6680
+012,Guerrero,033,San Pedro,484.7910
+012,Guerrero,034,Sierra Mojada,494.4400
+012,Guerrero,035,Torreón,546.2870
+012,Guerrero,036,Viesca,545.1620
+012,Guerrero,037,Villa Unión,39.8460
+012,Guerrero,038,Zaragoza,95.3960
+013,Hidalgo,001,Abasolo,275.3780
+013,Hidalgo,002,Acuña,217.8800
+013,Hidalgo,003,Allende,141.1020
+013,Hidalgo,004,Arteaga,344.0010
+013,Hidalgo,005,Candela,171.8330
+013,Hidalgo,006,Castaños,284.2070
+013,Hidalgo,007,Cuatro Ciénegas,348.6590
+013,Hidalgo,008,Escobedo,274.7830
+013,Hidalgo,009,Francisco I. Madero,584.8010
+013,Hidalgo,010,Frontera,270.2890
+013,Hidalgo,011,General Cepeda,402.1570
+013,Hidalgo,012,Guerrero,79.6250
+013,Hidalgo,014,Jiménez,172.6000
+013,Hidalgo,015,Juárez,177.3430
+013,Hidalgo,016,Lamadrid,323.8970
+013,Hidalgo,017,Matamoros,571.8450
+013,Hidalgo,018,Monclova,268.6310
+013,Hidalgo,019,Morelos,164.5890
+013,Hidalgo,020,Múzquiz,261.0240
+013,Hidalgo,021,Nadadores,295.8530
+013,Hidalgo,022,Nava,153.4870
+013,Hidalgo,023,Ocampo,398.3620
+013,Hidalgo,024,Parras,485.6760
+013,Hidalgo,025,Piedras Negras,129.7540
+013,Hidalgo,026,Progreso,211.1510
+013,Hidalgo,027,Ramos Arizpe,330.3030
+013,Hidalgo,028,Sabinas,236.4300
+013,Hidalgo,029,Sacramento,312.6400
+013,Hidalgo,030,Saltillo,344.4370
+013,Hidalgo,031,San Buenaventura,294.8880
+013,Hidalgo,032,San Juan de Sabinas,226.3100
+013,Hidalgo,033,San Pedro,551.7910
+013,Hidalgo,034,Sierra Mojada,544.0310
+013,Hidalgo,035,Torreón,594.6530
+013,Hidalgo,036,Viesca,574.1520
+013,Hidalgo,037,Villa Unión,120.9260
+013,Hidalgo,038,Zaragoza,174.1220
+014,Jiménez,001,Abasolo,262.0780
+014,Jiménez,002,Acuña,46.3190
+014,Jiménez,003,Allende,101.1530
+014,Jiménez,004,Arteaga,484.7960
+014,Jiménez,005,Candela,340.1060
+014,Jiménez,006,Castaños,299.2180
+014,Jiménez,007,Cuatro Ciénegas,339.8130
+014,Jiménez,008,Escobedo,261.4830
+014,Jiménez,009,Francisco I. Madero,557.4890
+014,Jiménez,010,Frontera,285.1640
+014,Jiménez,011,General Cepeda,479.1380
+014,Jiménez,012,Guerrero,93.8660
+014,Jiménez,013,Hidalgo,172.5940
+014,Jiménez,015,Juárez,217.9800
+014,Jiménez,016,Lamadrid,315.0510
+014,Jiménez,017,Matamoros,575.4040
+014,Jiménez,018,Monclova,283.4050
+014,Jiménez,019,Morelos,97.6930
+014,Jiménez,020,Múzquiz,194.1280
+014,Jiménez,021,Nadadores,287.0070
+014,Jiménez,022,Nava,86.5910
+014,Jiménez,023,Ocampo,389.5170
+014,Jiménez,024,Parras,545.2750
+014,Jiménez,025,Piedras Negras,47.5770
+014,Jiménez,026,Progreso,246.9140
+014,Jiménez,027,Ramos Arizpe,467.3290
+014,Jiménez,028,Sabinas,169.5340
+014,Jiménez,029,Sacramento,303.7950
+014,Jiménez,030,Saltillo,481.4630
+014,Jiménez,031,San Buenaventura,281.5880
+014,Jiménez,032,San Juan de Sabinas,159.4140
+014,Jiménez,033,San Pedro,525.5360
+014,Jiménez,034,Sierra Mojada,535.1860
+014,Jiménez,035,Torreón,587.0330
+014,Jiménez,036,Viesca,585.9070
+014,Jiménez,037,Villa Unión,111.1580
+014,Jiménez,038,Zaragoza,98.6890
+015,Juárez,001,Abasolo,104.2790
+015,Juárez,002,Acuña,236.8100
+015,Juárez,003,Allende,119.7490
+015,Juárez,004,Arteaga,326.9970
+015,Juárez,005,Candela,173.0160
+015,Juárez,006,Castaños,141.4180
+015,Juárez,007,Cuatro Ciénegas,182.0140
+015,Juárez,008,Escobedo,103.6840
+015,Juárez,009,Francisco I. Madero,399.6900
+015,Juárez,010,Frontera,127.3650
+015,Juárez,011,General Cepeda,321.3390
+015,Juárez,012,Guerrero,176.8570
+015,Juárez,013,Hidalgo,178.2310
+015,Juárez,014,Jiménez,217.6770
+015,Juárez,016,Lamadrid,157.2520
+015,Juárez,017,Matamoros,417.6050
+015,Juárez,018,Monclova,125.6060
+015,Juárez,019,Morelos,127.6840
+015,Juárez,020,Múzquiz,97.9460
+015,Juárez,021,Nadadores,129.2080
+015,Juárez,022,Nava,132.5030
+015,Juárez,023,Ocampo,231.7180
+015,Juárez,024,Parras,387.4760
+015,Juárez,025,Piedras Negras,175.7600
+015,Juárez,026,Progreso,40.0520
+015,Juárez,027,Ramos Arizpe,309.5300
+015,Juárez,028,Sabinas,48.4300
+015,Juárez,029,Sacramento,145.9960
+015,Juárez,030,Saltillo,323.6630
+015,Juárez,031,San Buenaventura,123.7890
+015,Juárez,032,San Juan de Sabinas,63.4110
+015,Juárez,033,San Pedro,367.7370
+015,Juárez,034,Sierra Mojada,377.3870
+015,Juárez,035,Torreón,429.2340
+015,Juárez,036,Viesca,428.1080
+015,Juárez,037,Villa Unión,137.2090
+015,Juárez,038,Zaragoza,137.2170
+016,Lamadrid,001,Abasolo,53.8710
+016,Lamadrid,002,Acuña,334.6930
+016,Lamadrid,003,Allende,217.6320
+016,Lamadrid,004,Arteaga,255.8120
+016,Lamadrid,005,Candela,152.1760
+016,Lamadrid,006,Castaños,70.2340
+016,Lamadrid,007,Cuatro Ciénegas,33.0480
+016,Lamadrid,008,Escobedo,60.7630
+016,Lamadrid,009,Francisco I. Madero,250.7230
+016,Lamadrid,010,Frontera,51.4140
+016,Lamadrid,011,General Cepeda,250.1540
+016,Lamadrid,012,Guerrero,274.7400
+016,Lamadrid,013,Hidalgo,324.9120
+016,Lamadrid,014,Jiménez,315.5590
+016,Lamadrid,015,Juárez,157.9400
+016,Lamadrid,017,Matamoros,268.6390
+016,Lamadrid,018,Monclova,55.5630
+016,Lamadrid,019,Morelos,225.5660
+016,Lamadrid,020,Múzquiz,173.6060
+016,Lamadrid,021,Nadadores,28.4880
+016,Lamadrid,022,Nava,230.3860
+016,Lamadrid,023,Ocampo,82.7510
+016,Lamadrid,024,Parras,340.9870
+016,Lamadrid,025,Piedras Negras,273.6420
+016,Lamadrid,026,Progreso,117.8880
+016,Lamadrid,027,Ramos Arizpe,238.3450
+016,Lamadrid,028,Sabinas,147.7440
+016,Lamadrid,029,Sacramento,11.2760
+016,Lamadrid,030,Saltillo,252.4790
+016,Lamadrid,031,San Buenaventura,34.9640
+016,Lamadrid,032,San Juan de Sabinas,161.2930
+016,Lamadrid,033,San Pedro,218.7710
+016,Lamadrid,034,Sierra Mojada,228.4200
+016,Lamadrid,035,Torreón,280.2670
+016,Lamadrid,036,Viesca,279.1420
+016,Lamadrid,037,Villa Unión,235.0920
+016,Lamadrid,038,Zaragoza,235.0990
+017,Matamoros,001,Abasolo,324.4020
+017,Matamoros,002,Acuña,605.2240
+017,Matamoros,003,Allende,488.1630
+017,Matamoros,004,Arteaga,254.3220
+017,Matamoros,005,Candela,422.7070
+017,Matamoros,006,Castaños,338.0370
+017,Matamoros,007,Cuatro Ciénegas,246.0500
+017,Matamoros,008,Escobedo,331.2940
+017,Matamoros,009,Francisco I. Madero,44.4830
+017,Matamoros,010,Frontera,321.9450
+017,Matamoros,011,General Cepeda,223.9550
+017,Matamoros,012,Guerrero,545.2710
+017,Matamoros,013,Hidalgo,576.6920
+017,Matamoros,014,Jiménez,586.0900
+017,Matamoros,015,Juárez,428.4710
+017,Matamoros,016,Lamadrid,278.8470
+017,Matamoros,018,Monclova,326.0940
+017,Matamoros,019,Morelos,496.0970
+017,Matamoros,020,Múzquiz,444.1370
+017,Matamoros,021,Nadadores,299.0190
+017,Matamoros,022,Nava,500.9170
+017,Matamoros,023,Ocampo,295.7540
+017,Matamoros,024,Parras,144.7430
+017,Matamoros,025,Piedras Negras,544.1730
+017,Matamoros,026,Progreso,388.4190
+017,Matamoros,027,Ramos Arizpe,252.5580
+017,Matamoros,028,Sabinas,418.2750
+017,Matamoros,029,Sacramento,281.8070
+017,Matamoros,030,Saltillo,239.7120
+017,Matamoros,031,San Buenaventura,305.4950
+017,Matamoros,032,San Juan de Sabinas,431.8240
+017,Matamoros,033,San Pedro,61.1230
+017,Matamoros,034,Sierra Mojada,278.3220
+017,Matamoros,035,Torreón,24.6450
+017,Matamoros,036,Viesca,54.1940
+017,Matamoros,037,Villa Unión,505.6230
+017,Matamoros,038,Zaragoza,505.6300
+018,Monclova,001,Abasolo,39.9920
+018,Monclova,002,Acuña,301.9950
+018,Monclova,003,Allende,184.9330
+018,Monclova,004,Arteaga,199.4360
+018,Monclova,005,Candela,96.0160
+018,Monclova,006,Castaños,13.8580
+018,Monclova,007,Cuatro Ciénegas,80.0550
+018,Monclova,008,Escobedo,62.4600
+018,Monclova,009,Francisco I. Madero,297.7310
+018,Monclova,010,Frontera,4.9150
+018,Monclova,011,General Cepeda,193.7790
+018,Monclova,012,Guerrero,242.0410
+018,Monclova,013,Hidalgo,268.7520
+018,Monclova,014,Jiménez,282.8610
+018,Monclova,015,Juárez,125.2420
+018,Monclova,016,Lamadrid,55.2930
+018,Monclova,017,Matamoros,346.0850
+018,Monclova,019,Morelos,192.8680
+018,Monclova,020,Múzquiz,140.9070
+018,Monclova,021,Nadadores,27.2490
+018,Monclova,022,Nava,197.6870
+018,Monclova,023,Ocampo,129.7590
+018,Monclova,024,Parras,259.9150
+018,Monclova,025,Piedras Negras,240.9440
+018,Monclova,026,Progreso,85.1900
+018,Monclova,027,Ramos Arizpe,181.9690
+018,Monclova,028,Sabinas,115.0460
+018,Monclova,029,Sacramento,44.0370
+018,Monclova,030,Saltillo,196.1030
+018,Monclova,031,San Buenaventura,23.4000
+018,Monclova,032,San Juan de Sabinas,128.5950
+018,Monclova,033,San Pedro,265.7780
+018,Monclova,034,Sierra Mojada,275.4270
+018,Monclova,035,Torreón,327.2750
+018,Monclova,036,Viesca,326.1490
+018,Monclova,037,Villa Unión,202.3930
+018,Monclova,038,Zaragoza,202.4010
+019,Morelos,001,Abasolo,169.3390
+019,Morelos,002,Acuña,109.1260
+019,Morelos,003,Allende,7.8210
+019,Morelos,004,Arteaga,392.0560
+019,Morelos,005,Candela,274.1020
+019,Morelos,006,Castaños,206.4780
+019,Morelos,007,Cuatro Ciénegas,247.0740
+019,Morelos,008,Escobedo,168.7440
+019,Morelos,009,Francisco I. Madero,464.7500
+019,Morelos,010,Frontera,192.4250
+019,Morelos,011,General Cepeda,386.3990
+019,Morelos,012,Guerrero,86.7280
+019,Morelos,013,Hidalgo,165.4560
+019,Morelos,014,Jiménez,98.6890
+019,Morelos,015,Juárez,125.2410
+019,Morelos,016,Lamadrid,222.3120
+019,Morelos,017,Matamoros,482.6650
+019,Morelos,018,Monclova,190.6650
+019,Morelos,020,Múzquiz,101.3890
+019,Morelos,021,Nadadores,194.2680
+019,Morelos,022,Nava,12.5980
+019,Morelos,023,Ocampo,296.7770
+019,Morelos,024,Parras,452.5360
+019,Morelos,025,Piedras Negras,56.7720
+019,Morelos,026,Progreso,154.1750
+019,Morelos,027,Ramos Arizpe,374.5900
+019,Morelos,028,Sabinas,76.7940
+019,Morelos,029,Sacramento,211.0560
+019,Morelos,030,Saltillo,388.7230
+019,Morelos,031,San Buenaventura,188.8490
+019,Morelos,032,San Juan de Sabinas,66.6740
+019,Morelos,033,San Pedro,432.7970
+019,Morelos,034,Sierra Mojada,442.4460
+019,Morelos,035,Torreón,494.2930
+019,Morelos,036,Viesca,493.1680
+019,Morelos,037,Villa Unión,27.9320
+019,Morelos,038,Zaragoza,9.5330
+020,Múzquiz,001,Abasolo,119.5120
+020,Múzquiz,002,Acuña,213.3390
+020,Múzquiz,003,Allende,96.2780
+020,Múzquiz,004,Arteaga,342.2290
+020,Múzquiz,005,Candela,224.2750
+020,Múzquiz,006,Castaños,156.6510
+020,Múzquiz,007,Cuatro Ciénegas,197.2470
+020,Múzquiz,008,Escobedo,118.9160
+020,Múzquiz,009,Francisco I. Madero,414.9230
+020,Múzquiz,010,Frontera,142.5980
+020,Múzquiz,011,General Cepeda,336.5720
+020,Múzquiz,012,Guerrero,153.3860
+020,Múzquiz,013,Hidalgo,260.9720
+020,Múzquiz,014,Jiménez,194.2060
+020,Múzquiz,015,Juárez,97.6430
+020,Múzquiz,016,Lamadrid,172.4850
+020,Múzquiz,017,Matamoros,432.8380
+020,Múzquiz,018,Monclova,140.8380
+020,Múzquiz,019,Morelos,104.2130
+020,Múzquiz,021,Nadadores,144.4410
+020,Múzquiz,022,Nava,109.0320
+020,Múzquiz,023,Ocampo,246.9500
+020,Múzquiz,024,Parras,402.7090
+020,Múzquiz,025,Piedras Negras,152.2890
+020,Múzquiz,026,Progreso,104.3480
+020,Múzquiz,027,Ramos Arizpe,324.7630
+020,Múzquiz,028,Sabinas,49.1960
+020,Múzquiz,029,Sacramento,161.2280
+020,Múzquiz,030,Saltillo,338.8960
+020,Múzquiz,031,San Buenaventura,139.0220
+020,Múzquiz,032,San Juan de Sabinas,34.4720
+020,Múzquiz,033,San Pedro,382.9700
+020,Múzquiz,034,Sierra Mojada,392.6190
+020,Múzquiz,035,Torreón,444.4660
+020,Múzquiz,036,Viesca,443.3410
+020,Múzquiz,037,Villa Unión,113.7380
+020,Múzquiz,038,Zaragoza,113.7460
+021,Nadadores,001,Abasolo,25.8170
+021,Nadadores,002,Acuña,306.6390
+021,Nadadores,003,Allende,189.5770
+021,Nadadores,004,Arteaga,227.7580
+021,Nadadores,005,Candela,124.1220
+021,Nadadores,006,Castaños,42.1800
+021,Nadadores,007,Cuatro Ciénegas,53.2410
+021,Nadadores,008,Escobedo,32.7080
+021,Nadadores,009,Francisco I. Madero,270.9170
+021,Nadadores,010,Frontera,23.3600
+021,Nadadores,011,General Cepeda,222.1000
+021,Nadadores,012,Guerrero,246.6860
+021,Nadadores,013,Hidalgo,296.8580
+021,Nadadores,014,Jiménez,287.5050
+021,Nadadores,015,Juárez,129.8860
+021,Nadadores,016,Lamadrid,28.4800
+021,Nadadores,017,Matamoros,288.8320
+021,Nadadores,018,Monclova,27.5090
+021,Nadadores,019,Morelos,197.5120
+021,Nadadores,020,Múzquiz,145.5520
+021,Nadadores,022,Nava,202.3310
+021,Nadadores,023,Ocampo,102.9450
+021,Nadadores,024,Parras,288.2370
+021,Nadadores,025,Piedras Negras,245.5880
+021,Nadadores,026,Progreso,89.8340
+021,Nadadores,027,Ramos Arizpe,210.2910
+021,Nadadores,028,Sabinas,119.6900
+021,Nadadores,029,Sacramento,17.2230
+021,Nadadores,030,Saltillo,224.4250
+021,Nadadores,031,San Buenaventura,6.9100
+021,Nadadores,032,San Juan de Sabinas,133.2390
+021,Nadadores,033,San Pedro,238.9640
+021,Nadadores,034,Sierra Mojada,248.6140
+021,Nadadores,035,Torreón,300.4610
+021,Nadadores,036,Viesca,299.3360
+021,Nadadores,037,Villa Unión,207.0380
+021,Nadadores,038,Zaragoza,207.0450
+022,Nava,001,Abasolo,178.9120
+022,Nava,002,Acuña,123.6530
+022,Nava,003,Allende,17.9870
+022,Nava,004,Arteaga,401.6300
+022,Nava,005,Candela,283.6750
+022,Nava,006,Castaños,216.0510
+022,Nava,007,Cuatro Ciénegas,256.6470
+022,Nava,008,Escobedo,178.3170
+022,Nava,009,Francisco I. Madero,474.3230
+022,Nava,010,Frontera,201.9980
+022,Nava,011,General Cepeda,395.9720
+022,Nava,012,Guerrero,74.4920
+022,Nava,013,Hidalgo,153.2200
+022,Nava,014,Jiménez,86.4530
+022,Nava,015,Juárez,134.8140
+022,Nava,016,Lamadrid,231.8850
+022,Nava,017,Matamoros,492.2380
+022,Nava,018,Monclova,200.2390
+022,Nava,019,Morelos,14.5270
+022,Nava,020,Múzquiz,110.9620
+022,Nava,021,Nadadores,203.8410
+022,Nava,023,Ocampo,306.3510
+022,Nava,024,Parras,462.1090
+022,Nava,025,Piedras Negras,44.5370
+022,Nava,026,Progreso,163.7480
+022,Nava,027,Ramos Arizpe,384.1630
+022,Nava,028,Sabinas,86.3680
+022,Nava,029,Sacramento,220.6290
+022,Nava,030,Saltillo,398.2960
+022,Nava,031,San Buenaventura,198.4220
+022,Nava,032,San Juan de Sabinas,76.2480
+022,Nava,033,San Pedro,442.3700
+022,Nava,034,Sierra Mojada,452.0200
+022,Nava,035,Torreón,503.8670
+022,Nava,036,Viesca,502.7410
+022,Nava,037,Villa Unión,25.0230
+022,Nava,038,Zaragoza,24.0600
+023,Ocampo,001,Abasolo,128.4950
+023,Ocampo,002,Acuña,409.3170
+023,Ocampo,003,Allende,292.2560
+023,Ocampo,004,Arteaga,330.4360
+023,Ocampo,005,Candela,226.8010
+023,Ocampo,006,Castaños,144.8580
+023,Ocampo,007,Cuatro Ciénegas,49.7490
+023,Ocampo,008,Escobedo,135.3870
+023,Ocampo,009,Francisco I. Madero,267.4290
+023,Ocampo,010,Frontera,126.0380
+023,Ocampo,011,General Cepeda,324.7790
+023,Ocampo,012,Guerrero,349.3640
+023,Ocampo,013,Hidalgo,399.5360
+023,Ocampo,014,Jiménez,390.1840
+023,Ocampo,015,Juárez,232.5640
+023,Ocampo,016,Lamadrid,82.9400
+023,Ocampo,017,Matamoros,285.3440
+023,Ocampo,018,Monclova,130.1870
+023,Ocampo,019,Morelos,300.1910
+023,Ocampo,020,Múzquiz,248.2300
+023,Ocampo,021,Nadadores,103.1130
+023,Ocampo,022,Nava,305.0100
+023,Ocampo,024,Parras,357.6930
+023,Ocampo,025,Piedras Negras,348.2670
+023,Ocampo,026,Progreso,192.5130
+023,Ocampo,027,Ramos Arizpe,312.9700
+023,Ocampo,028,Sabinas,222.3680
+023,Ocampo,029,Sacramento,85.9000
+023,Ocampo,030,Saltillo,327.1030
+023,Ocampo,031,San Buenaventura,109.5890
+023,Ocampo,032,San Juan de Sabinas,235.9180
+023,Ocampo,033,San Pedro,235.4770
+023,Ocampo,034,Sierra Mojada,145.6690
+023,Ocampo,035,Torreón,296.9730
+023,Ocampo,036,Viesca,295.8480
+023,Ocampo,037,Villa Unión,309.7160
+023,Ocampo,038,Zaragoza,309.7240
+024,Parras,001,Abasolo,301.4370
+024,Parras,002,Acuña,564.4830
+024,Parras,003,Allende,447.4220
+024,Parras,004,Arteaga,164.0510
+024,Parras,005,Candela,358.6940
+024,Parras,006,Castaños,247.7660
+024,Parras,007,Cuatro Ciénegas,306.0060
+024,Parras,008,Escobedo,324.9490
+024,Parras,009,Francisco I. Madero,154.0890
+024,Parras,010,Frontera,264.1300
+024,Parras,011,General Cepeda,80.1240
+024,Parras,012,Guerrero,504.5300
+024,Parras,013,Hidalgo,486.4210
+024,Parras,014,Jiménez,545.3500
+024,Parras,015,Juárez,387.7300
+024,Parras,016,Lamadrid,338.8030
+024,Parras,017,Matamoros,141.1340
+024,Parras,018,Monclova,259.8380
+024,Parras,019,Morelos,455.3570
+024,Parras,020,Múzquiz,403.3960
+024,Parras,021,Nadadores,288.6950
+024,Parras,022,Nava,460.1760
+024,Parras,023,Ocampo,355.7100
+024,Parras,025,Piedras Negras,503.4330
+024,Parras,026,Progreso,347.6790
+024,Parras,027,Ramos Arizpe,162.2870
+024,Parras,028,Sabinas,377.5340
+024,Parras,029,Sacramento,341.7630
+024,Parras,030,Saltillo,149.4410
+024,Parras,031,San Buenaventura,284.8450
+024,Parras,032,San Juan de Sabinas,391.0840
+024,Parras,033,San Pedro,121.0790
+024,Parras,034,Sierra Mojada,353.6980
+024,Parras,035,Torreón,163.9410
+024,Parras,036,Viesca,143.4410
+024,Parras,037,Villa Unión,464.8820
+024,Parras,038,Zaragoza,464.8900
+025,Piedras Negras,001,Abasolo,221.0370
+025,Piedras Negras,002,Acuña,92.7990
+025,Piedras Negras,003,Allende,60.1120
+025,Piedras Negras,004,Arteaga,443.7550
+025,Piedras Negras,005,Candela,299.0650
+025,Piedras Negras,006,Castaños,258.1770
+025,Piedras Negras,007,Cuatro Ciénegas,298.7720
+025,Piedras Negras,008,Escobedo,220.4420
+025,Piedras Negras,009,Francisco I. Madero,516.4480
+025,Piedras Negras,010,Frontera,244.1230
+025,Piedras Negras,011,General Cepeda,438.0970
+025,Piedras Negras,012,Guerrero,52.8250
+025,Piedras Negras,013,Hidalgo,131.5530
+025,Piedras Negras,014,Jiménez,47.5180
+025,Piedras Negras,015,Juárez,176.9390
+025,Piedras Negras,016,Lamadrid,274.0100
+025,Piedras Negras,017,Matamoros,534.3630
+025,Piedras Negras,018,Monclova,242.3640
+025,Piedras Negras,019,Morelos,56.6520
+025,Piedras Negras,020,Múzquiz,153.0870
+025,Piedras Negras,021,Nadadores,245.9660
+025,Piedras Negras,022,Nava,45.5500
+025,Piedras Negras,023,Ocampo,348.4760
+025,Piedras Negras,024,Parras,504.2340
+025,Piedras Negras,026,Progreso,205.8730
+025,Piedras Negras,027,Ramos Arizpe,426.2880
+025,Piedras Negras,028,Sabinas,128.4930
+025,Piedras Negras,029,Sacramento,262.7540
+025,Piedras Negras,030,Saltillo,440.4220
+025,Piedras Negras,031,San Buenaventura,240.5470
+025,Piedras Negras,032,San Juan de Sabinas,118.3730
+025,Piedras Negras,033,San Pedro,484.4950
+025,Piedras Negras,034,Sierra Mojada,494.1450
+025,Piedras Negras,035,Torreón,545.9920
+025,Piedras Negras,036,Viesca,544.8660
+025,Piedras Negras,037,Villa Unión,70.1170
+025,Piedras Negras,038,Zaragoza,66.1800
+026,Progreso,001,Abasolo,64.2270
+026,Progreso,002,Acuña,265.8370
+026,Progreso,003,Allende,148.7760
+026,Progreso,004,Arteaga,286.9450
+026,Progreso,005,Candela,168.9900
+026,Progreso,006,Castaños,101.3670
+026,Progreso,007,Cuatro Ciénegas,141.9620
+026,Progreso,008,Escobedo,63.6320
+026,Progreso,009,Francisco I. Madero,359.6380
+026,Progreso,010,Frontera,87.3130
+026,Progreso,011,General Cepeda,281.2870
+026,Progreso,012,Guerrero,205.8840
+026,Progreso,013,Hidalgo,212.0390
+026,Progreso,014,Jiménez,246.7040
+026,Progreso,015,Juárez,40.0520
+026,Progreso,016,Lamadrid,117.2000
+026,Progreso,017,Matamoros,377.5530
+026,Progreso,018,Monclova,85.5540
+026,Progreso,019,Morelos,156.7110
+026,Progreso,020,Múzquiz,104.7500
+026,Progreso,021,Nadadores,89.1560
+026,Progreso,022,Nava,161.5300
+026,Progreso,023,Ocampo,191.6660
+026,Progreso,024,Parras,347.4240
+026,Progreso,025,Piedras Negras,204.7870
+026,Progreso,027,Ramos Arizpe,269.4780
+026,Progreso,028,Sabinas,78.8880
+026,Progreso,029,Sacramento,105.9440
+026,Progreso,030,Saltillo,283.6120
+026,Progreso,031,San Buenaventura,83.7370
+026,Progreso,032,San Juan de Sabinas,92.4380
+026,Progreso,033,San Pedro,327.6850
+026,Progreso,034,Sierra Mojada,337.3350
+026,Progreso,035,Torreón,389.1820
+026,Progreso,036,Viesca,388.0560
+026,Progreso,037,Villa Unión,166.2360
+026,Progreso,038,Zaragoza,166.2440
+027,Ramos Arizpe,001,Abasolo,225.2640
+027,Ramos Arizpe,002,Acuña,488.3100
+027,Ramos Arizpe,003,Allende,371.2480
+027,Ramos Arizpe,004,Arteaga,18.8910
+027,Ramos Arizpe,005,Candela,213.6320
+027,Ramos Arizpe,006,Castaños,171.5920
+027,Ramos Arizpe,007,Cuatro Ciénegas,265.3260
+027,Ramos Arizpe,008,Escobedo,248.7750
+027,Ramos Arizpe,009,Francisco I. Madero,257.6020
+027,Ramos Arizpe,010,Frontera,187.9560
+027,Ramos Arizpe,011,General Cepeda,74.9580
+027,Ramos Arizpe,012,Guerrero,404.9470
+027,Ramos Arizpe,013,Hidalgo,329.6430
+027,Ramos Arizpe,014,Jiménez,469.1760
+027,Ramos Arizpe,015,Juárez,311.5570
+027,Ramos Arizpe,016,Lamadrid,240.5650
+027,Ramos Arizpe,017,Matamoros,244.6470
+027,Ramos Arizpe,018,Monclova,183.6640
+027,Ramos Arizpe,019,Morelos,379.1830
+027,Ramos Arizpe,020,Múzquiz,327.2230
+027,Ramos Arizpe,021,Nadadores,212.5210
+027,Ramos Arizpe,022,Nava,384.0020
+027,Ramos Arizpe,023,Ocampo,315.0300
+027,Ramos Arizpe,024,Parras,158.4780
+027,Ramos Arizpe,025,Piedras Negras,427.2590
+027,Ramos Arizpe,026,Progreso,271.5050
+027,Ramos Arizpe,028,Sabinas,301.3610
+027,Ramos Arizpe,029,Sacramento,229.3080
+027,Ramos Arizpe,030,Saltillo,15.8130
+027,Ramos Arizpe,031,San Buenaventura,208.6710
+027,Ramos Arizpe,032,San Juan de Sabinas,314.9100
+027,Ramos Arizpe,033,San Pedro,224.5920
+027,Ramos Arizpe,034,Sierra Mojada,460.6990
+027,Ramos Arizpe,035,Torreón,267.4550
+027,Ramos Arizpe,036,Viesca,246.9540
+027,Ramos Arizpe,037,Villa Unión,388.7080
+027,Ramos Arizpe,038,Zaragoza,388.7160
+028,Sabinas,001,Abasolo,94.0780
+028,Sabinas,002,Acuña,188.3610
+028,Sabinas,003,Allende,71.3000
+028,Sabinas,004,Arteaga,316.7950
+028,Sabinas,005,Candela,198.8400
+028,Sabinas,006,Castaños,131.2170
+028,Sabinas,007,Cuatro Ciénegas,171.8130
+028,Sabinas,008,Escobedo,93.4820
+028,Sabinas,009,Francisco I. Madero,389.4880
+028,Sabinas,010,Frontera,117.1640
+028,Sabinas,011,General Cepeda,311.1380
+028,Sabinas,012,Guerrero,128.4080
+028,Sabinas,013,Hidalgo,235.9940
+028,Sabinas,014,Jiménez,169.2270
+028,Sabinas,015,Juárez,48.4300
+028,Sabinas,016,Lamadrid,147.0510
+028,Sabinas,017,Matamoros,407.4030
+028,Sabinas,018,Monclova,115.4040
+028,Sabinas,019,Morelos,79.2340
+028,Sabinas,020,Múzquiz,49.4970
+028,Sabinas,021,Nadadores,119.0070
+028,Sabinas,022,Nava,84.0540
+028,Sabinas,023,Ocampo,221.5160
+028,Sabinas,024,Parras,377.2740
+028,Sabinas,025,Piedras Negras,127.3100
+028,Sabinas,026,Progreso,78.9140
+028,Sabinas,027,Ramos Arizpe,299.3280
+028,Sabinas,029,Sacramento,135.7940
+028,Sabinas,030,Saltillo,313.4620
+028,Sabinas,031,San Buenaventura,113.5870
+028,Sabinas,032,San Juan de Sabinas,14.9610
+028,Sabinas,033,San Pedro,357.5360
+028,Sabinas,034,Sierra Mojada,367.1850
+028,Sabinas,035,Torreón,419.0320
+028,Sabinas,036,Viesca,417.9070
+028,Sabinas,037,Villa Unión,88.7600
+028,Sabinas,038,Zaragoza,88.7680
+029,Sacramento,001,Abasolo,42.5960
+029,Sacramento,002,Acuña,323.4170
+029,Sacramento,003,Allende,206.3560
+029,Sacramento,004,Arteaga,244.5360
+029,Sacramento,005,Candela,140.9010
+029,Sacramento,006,Castaños,58.9580
+029,Sacramento,007,Cuatro Ciénegas,36.0180
+029,Sacramento,008,Escobedo,49.4870
+029,Sacramento,009,Francisco I. Madero,253.6940
+029,Sacramento,010,Frontera,40.1380
+029,Sacramento,011,General Cepeda,238.8790
+029,Sacramento,012,Guerrero,263.4640
+029,Sacramento,013,Hidalgo,313.6360
+029,Sacramento,014,Jiménez,304.2840
+029,Sacramento,015,Juárez,146.6640
+029,Sacramento,016,Lamadrid,11.2560
+029,Sacramento,017,Matamoros,271.6090
+029,Sacramento,018,Monclova,44.2870
+029,Sacramento,019,Morelos,214.2910
+029,Sacramento,020,Múzquiz,162.3300
+029,Sacramento,021,Nadadores,17.2130
+029,Sacramento,022,Nava,219.1100
+029,Sacramento,023,Ocampo,85.7220
+029,Sacramento,024,Parras,343.9580
+029,Sacramento,025,Piedras Negras,262.3670
+029,Sacramento,026,Progreso,106.6130
+029,Sacramento,027,Ramos Arizpe,227.0700
+029,Sacramento,028,Sabinas,136.4680
+029,Sacramento,030,Saltillo,241.2030
+029,Sacramento,031,San Buenaventura,23.6890
+029,Sacramento,032,San Juan de Sabinas,150.0180
+029,Sacramento,033,San Pedro,221.7410
+029,Sacramento,034,Sierra Mojada,231.3910
+029,Sacramento,035,Torreón,283.2380
+029,Sacramento,036,Viesca,282.1120
+029,Sacramento,037,Villa Unión,223.8160
+029,Sacramento,038,Zaragoza,223.8240
+030,Saltillo,001,Abasolo,241.0020
+030,Saltillo,002,Acuña,504.0480
+030,Saltillo,003,Allende,386.9870
+030,Saltillo,004,Arteaga,16.5230
+030,Saltillo,005,Candela,229.3700
+030,Saltillo,006,Castaños,187.3300
+030,Saltillo,007,Cuatro Ciénegas,281.0650
+030,Saltillo,008,Escobedo,264.5130
+030,Saltillo,009,Francisco I. Madero,248.3860
+030,Saltillo,010,Frontera,203.6950
+030,Saltillo,011,General Cepeda,65.7420
+030,Saltillo,012,Guerrero,420.6850
+030,Saltillo,013,Hidalgo,345.3810
+030,Saltillo,014,Jiménez,484.9140
+030,Saltillo,015,Juárez,327.2950
+030,Saltillo,016,Lamadrid,256.3030
+030,Saltillo,017,Matamoros,235.4310
+030,Saltillo,018,Monclova,199.4020
+030,Saltillo,019,Morelos,394.9210
+030,Saltillo,020,Múzquiz,342.9610
+030,Saltillo,021,Nadadores,228.2590
+030,Saltillo,022,Nava,399.7410
+030,Saltillo,023,Ocampo,330.7680
+030,Saltillo,024,Parras,149.2620
+030,Saltillo,025,Piedras Negras,442.9970
+030,Saltillo,026,Progreso,287.2430
+030,Saltillo,027,Ramos Arizpe,17.5930
+030,Saltillo,028,Sabinas,317.0990
+030,Saltillo,029,Sacramento,245.0470
+030,Saltillo,031,San Buenaventura,224.4100
+030,Saltillo,032,San Juan de Sabinas,330.6480
+030,Saltillo,033,San Pedro,215.3760
+030,Saltillo,034,Sierra Mojada,447.9950
+030,Saltillo,035,Torreón,258.2380
+030,Saltillo,036,Viesca,237.7380
+030,Saltillo,037,Villa Unión,404.4470
+030,Saltillo,038,Zaragoza,404.4540
+031,San Buenaventura,001,Abasolo,19.1360
+031,San Buenaventura,002,Acuña,299.9580
+031,San Buenaventura,003,Allende,182.8970
+031,San Buenaventura,004,Arteaga,223.4620
+031,San Buenaventura,005,Candela,119.8260
+031,San Buenaventura,006,Castaños,37.8840
+031,San Buenaventura,007,Cuatro Ciénegas,59.1200
+031,San Buenaventura,008,Escobedo,26.0280
+031,San Buenaventura,009,Francisco I. Madero,276.7960
+031,San Buenaventura,010,Frontera,19.0640
+031,San Buenaventura,011,General Cepeda,217.8050
+031,San Buenaventura,012,Guerrero,240.0050
+031,San Buenaventura,013,Hidalgo,292.5620
+031,San Buenaventura,014,Jiménez,280.8250
+031,San Buenaventura,015,Juárez,123.2050
+031,San Buenaventura,016,Lamadrid,34.3580
+031,San Buenaventura,017,Matamoros,294.7110
+031,San Buenaventura,018,Monclova,23.2130
+031,San Buenaventura,019,Morelos,190.8320
+031,San Buenaventura,020,Múzquiz,138.8710
+031,San Buenaventura,021,Nadadores,6.3140
+031,San Buenaventura,022,Nava,195.6510
+031,San Buenaventura,023,Ocampo,108.8240
+031,San Buenaventura,024,Parras,283.9410
+031,San Buenaventura,025,Piedras Negras,238.9080
+031,San Buenaventura,026,Progreso,83.1530
+031,San Buenaventura,027,Ramos Arizpe,205.9950
+031,San Buenaventura,028,Sabinas,113.0090
+031,San Buenaventura,029,Sacramento,23.1020
+031,San Buenaventura,030,Saltillo,220.1290
+031,San Buenaventura,032,San Juan de Sabinas,126.5590
+031,San Buenaventura,033,San Pedro,244.8430
+031,San Buenaventura,034,Sierra Mojada,254.4920
+031,San Buenaventura,035,Torreón,306.3400
+031,San Buenaventura,036,Viesca,305.2140
+031,San Buenaventura,037,Villa Unión,200.3570
+031,San Buenaventura,038,Zaragoza,200.3650
+032,San Juan de Sabinas,001,Abasolo,106.9290
+032,San Juan de Sabinas,002,Acuña,178.5280
+032,San Juan de Sabinas,003,Allende,61.4660
+032,San Juan de Sabinas,004,Arteaga,329.6470
+032,San Juan de Sabinas,005,Candela,211.6920
+032,San Juan de Sabinas,006,Castaños,144.0690
+032,San Juan de Sabinas,007,Cuatro Ciénegas,184.6640
+032,San Juan de Sabinas,008,Escobedo,106.3340
+032,San Juan de Sabinas,009,Francisco I. Madero,402.3400
+032,San Juan de Sabinas,010,Frontera,130.0150
+032,San Juan de Sabinas,011,General Cepeda,323.9890
+032,San Juan de Sabinas,012,Guerrero,118.5750
+032,San Juan de Sabinas,013,Hidalgo,226.1610
+032,San Juan de Sabinas,014,Jiménez,159.3940
+032,San Juan de Sabinas,015,Juárez,62.8310
+032,San Juan de Sabinas,016,Lamadrid,159.9020
+032,San Juan de Sabinas,017,Matamoros,420.2550
+032,San Juan de Sabinas,018,Monclova,128.2560
+032,San Juan de Sabinas,019,Morelos,69.4010
+032,San Juan de Sabinas,020,Múzquiz,35.0120
+032,San Juan de Sabinas,021,Nadadores,131.8580
+032,San Juan de Sabinas,022,Nava,74.2200
+032,San Juan de Sabinas,023,Ocampo,234.3680
+032,San Juan de Sabinas,024,Parras,390.1260
+032,San Juan de Sabinas,025,Piedras Negras,117.4770
+032,San Juan de Sabinas,026,Progreso,91.7650
+032,San Juan de Sabinas,027,Ramos Arizpe,312.1800
+032,San Juan de Sabinas,028,Sabinas,14.3850
+032,San Juan de Sabinas,029,Sacramento,148.6460
+032,San Juan de Sabinas,030,Saltillo,326.3130
+032,San Juan de Sabinas,031,San Buenaventura,126.4390
+032,San Juan de Sabinas,033,San Pedro,370.3870
+032,San Juan de Sabinas,034,Sierra Mojada,380.0370
+032,San Juan de Sabinas,035,Torreón,431.8840
+032,San Juan de Sabinas,036,Viesca,430.7580
+032,San Juan de Sabinas,037,Villa Unión,78.9270
+032,San Juan de Sabinas,038,Zaragoza,78.9340
+033,San Pedro,001,Abasolo,264.6440
+033,San Pedro,002,Acuña,545.4660
+033,San Pedro,003,Allende,428.4050
+033,San Pedro,004,Arteaga,233.1870
+033,San Pedro,005,Candela,362.9500
+033,San Pedro,006,Castaños,281.0070
+033,San Pedro,007,Cuatro Ciénegas,186.2930
+033,San Pedro,008,Escobedo,271.5360
+033,San Pedro,009,Francisco I. Madero,32.8950
+033,San Pedro,010,Frontera,262.1870
+033,San Pedro,011,General Cepeda,202.8200
+033,San Pedro,012,Guerrero,485.5130
+033,San Pedro,013,Hidalgo,555.5580
+033,San Pedro,014,Jiménez,526.3330
+033,San Pedro,015,Juárez,368.7130
+033,San Pedro,016,Lamadrid,219.0890
+033,San Pedro,017,Matamoros,50.4230
+033,San Pedro,018,Monclova,266.3360
+033,San Pedro,019,Morelos,436.3400
+033,San Pedro,020,Múzquiz,384.3790
+033,San Pedro,021,Nadadores,239.2620
+033,San Pedro,022,Nava,441.1590
+033,San Pedro,023,Ocampo,235.9970
+033,San Pedro,024,Parras,123.6080
+033,San Pedro,025,Piedras Negras,484.4160
+033,San Pedro,026,Progreso,328.6620
+033,San Pedro,027,Ramos Arizpe,231.4230
+033,San Pedro,028,Sabinas,358.5170
+033,San Pedro,029,Sacramento,222.0490
+033,San Pedro,030,Saltillo,218.5780
+033,San Pedro,031,San Buenaventura,245.7380
+033,San Pedro,032,San Juan de Sabinas,372.0670
+033,San Pedro,034,Sierra Mojada,232.5040
+033,San Pedro,035,Torreón,62.4390
+033,San Pedro,036,Viesca,61.7630
+033,San Pedro,037,Villa Unión,445.8650
+033,San Pedro,038,Zaragoza,445.8730
+034,Sierra Mojada,001,Abasolo,274.1640
+034,Sierra Mojada,002,Acuña,554.9860
+034,Sierra Mojada,003,Allende,437.9250
+034,Sierra Mojada,004,Arteaga,465.3070
+034,Sierra Mojada,005,Candela,372.4690
+034,Sierra Mojada,006,Castaños,290.5270
+034,Sierra Mojada,007,Cuatro Ciénegas,195.4180
+034,Sierra Mojada,008,Escobedo,281.0560
+034,Sierra Mojada,009,Francisco I. Madero,227.4680
+034,Sierra Mojada,010,Frontera,271.7070
+034,Sierra Mojada,011,General Cepeda,434.9400
+034,Sierra Mojada,012,Guerrero,495.0330
+034,Sierra Mojada,013,Hidalgo,545.2050
+034,Sierra Mojada,014,Jiménez,535.8520
+034,Sierra Mojada,015,Juárez,378.2330
+034,Sierra Mojada,016,Lamadrid,228.6090
+034,Sierra Mojada,017,Matamoros,277.1800
+034,Sierra Mojada,018,Monclova,275.8560
+034,Sierra Mojada,019,Morelos,445.8600
+034,Sierra Mojada,020,Múzquiz,393.8990
+034,Sierra Mojada,021,Nadadores,248.7820
+034,Sierra Mojada,022,Nava,450.6790
+034,Sierra Mojada,023,Ocampo,145.6690
+034,Sierra Mojada,024,Parras,355.7280
+034,Sierra Mojada,025,Piedras Negras,493.9360
+034,Sierra Mojada,026,Progreso,338.1810
+034,Sierra Mojada,027,Ramos Arizpe,458.6380
+034,Sierra Mojada,028,Sabinas,368.0370
+034,Sierra Mojada,029,Sacramento,231.5690
+034,Sierra Mojada,030,Saltillo,450.6970
+034,Sierra Mojada,031,San Buenaventura,255.2580
+034,Sierra Mojada,032,San Juan de Sabinas,381.5860
+034,Sierra Mojada,033,San Pedro,232.5900
+034,Sierra Mojada,035,Torreón,266.9720
+034,Sierra Mojada,036,Viesca,293.8820
+034,Sierra Mojada,037,Villa Unión,455.3850
+034,Sierra Mojada,038,Zaragoza,455.3930
+035,Torreón,001,Abasolo,325.8090
+035,Torreón,002,Acuña,606.6300
+035,Torreón,003,Allende,489.5690
+035,Torreón,004,Arteaga,274.9020
+035,Torreón,005,Candela,424.1140
+035,Torreón,006,Castaños,342.1710
+035,Torreón,007,Cuatro Ciénegas,247.4570
+035,Torreón,008,Escobedo,332.7000
+035,Torreón,009,Francisco I. Madero,33.1400
+035,Torreón,010,Frontera,323.3520
+035,Torreón,011,General Cepeda,244.5350
+035,Torreón,012,Guerrero,546.6770
+035,Torreón,013,Hidalgo,597.2720
+035,Torreón,014,Jiménez,587.4970
+035,Torreón,015,Juárez,429.8780
+035,Torreón,016,Lamadrid,280.2530
+035,Torreón,017,Matamoros,23.4250
+035,Torreón,018,Monclova,327.5010
+035,Torreón,019,Morelos,497.5040
+035,Torreón,020,Múzquiz,445.5430
+035,Torreón,021,Nadadores,300.4260
+035,Torreón,022,Nava,502.3230
+035,Torreón,023,Ocampo,297.1610
+035,Torreón,024,Parras,165.3230
+035,Torreón,025,Piedras Negras,545.5800
+035,Torreón,026,Progreso,389.8260
+035,Torreón,027,Ramos Arizpe,273.1380
+035,Torreón,028,Sabinas,419.6810
+035,Torreón,029,Sacramento,283.2130
+035,Torreón,030,Saltillo,260.2920
+035,Torreón,031,San Buenaventura,306.9020
+035,Torreón,032,San Juan de Sabinas,433.2310
+035,Torreón,033,San Pedro,62.3660
+035,Torreón,034,Sierra Mojada,266.9800
+035,Torreón,036,Viesca,77.0680
+035,Torreón,037,Villa Unión,507.0290
+035,Torreón,038,Zaragoza,507.0370
+036,Viesca,001,Abasolo,324.9010
+036,Viesca,002,Acuña,605.7230
+036,Viesca,003,Allende,488.6620
+036,Viesca,004,Arteaga,255.1460
+036,Viesca,005,Candela,423.2060
+036,Viesca,006,Castaños,338.8610
+036,Viesca,007,Cuatro Ciénegas,246.5500
+036,Viesca,008,Escobedo,331.7930
+036,Viesca,009,Francisco I. Madero,94.2810
+036,Viesca,010,Frontera,322.4440
+036,Viesca,011,General Cepeda,224.7790
+036,Viesca,012,Guerrero,545.7700
+036,Viesca,013,Hidalgo,577.5160
+036,Viesca,014,Jiménez,586.5890
+036,Viesca,015,Juárez,428.9700
+036,Viesca,016,Lamadrid,279.3460
+036,Viesca,017,Matamoros,54.0390
+036,Viesca,018,Monclova,326.5930
+036,Viesca,019,Morelos,496.5970
+036,Viesca,020,Múzquiz,444.6360
+036,Viesca,021,Nadadores,299.5190
+036,Viesca,022,Nava,501.4160
+036,Viesca,023,Ocampo,296.2530
+036,Viesca,024,Parras,145.5670
+036,Viesca,025,Piedras Negras,544.6730
+036,Viesca,026,Progreso,388.9180
+036,Viesca,027,Ramos Arizpe,253.3820
+036,Viesca,028,Sabinas,418.7740
+036,Viesca,029,Sacramento,282.3060
+036,Viesca,030,Saltillo,240.5370
+036,Viesca,031,San Buenaventura,305.9950
+036,Viesca,032,San Juan de Sabinas,432.3230
+036,Viesca,033,San Pedro,61.6220
+036,Viesca,034,Sierra Mojada,294.2410
+036,Viesca,035,Torreón,78.7730
+036,Viesca,037,Villa Unión,506.1220
+036,Viesca,038,Zaragoza,506.1300
+037,Villa Unión,001,Abasolo,181.7850
+037,Villa Unión,002,Acuña,137.1710
+037,Villa Unión,003,Allende,20.4740
+037,Villa Unión,004,Arteaga,404.5020
+037,Villa Unión,005,Candela,286.5480
+037,Villa Unión,006,Castaños,218.9240
+037,Villa Unión,007,Cuatro Ciénegas,259.5200
+037,Villa Unión,008,Escobedo,181.1890
+037,Villa Unión,009,Francisco I. Madero,477.1950
+037,Villa Unión,010,Frontera,204.8710
+037,Villa Unión,011,General Cepeda,398.8450
+037,Villa Unión,012,Guerrero,39.7580
+037,Villa Unión,013,Hidalgo,120.8060
+037,Villa Unión,014,Jiménez,111.3240
+037,Villa Unión,015,Juárez,137.6870
+037,Villa Unión,016,Lamadrid,234.7580
+037,Villa Unión,017,Matamoros,495.1100
+037,Villa Unión,018,Monclova,203.1110
+037,Villa Unión,019,Morelos,28.0450
+037,Villa Unión,020,Múzquiz,113.8340
+037,Villa Unión,021,Nadadores,206.7140
+037,Villa Unión,022,Nava,24.8620
+037,Villa Unión,023,Ocampo,309.2230
+037,Villa Unión,024,Parras,464.9820
+037,Villa Unión,025,Piedras Negras,69.4070
+037,Villa Unión,026,Progreso,166.6210
+037,Villa Unión,027,Ramos Arizpe,387.0350
+037,Villa Unión,028,Sabinas,89.2400
+037,Villa Unión,029,Sacramento,223.5010
+037,Villa Unión,030,Saltillo,401.1690
+037,Villa Unión,031,San Buenaventura,201.2940
+037,Villa Unión,032,San Juan de Sabinas,79.1200
+037,Villa Unión,033,San Pedro,445.2430
+037,Villa Unión,034,Sierra Mojada,454.8920
+037,Villa Unión,035,Torreón,506.7390
+037,Villa Unión,036,Viesca,505.6140
+037,Villa Unión,038,Zaragoza,37.5780
+038,Zaragoza,001,Abasolo,178.5110
+038,Zaragoza,002,Acuña,100.0510
+038,Zaragoza,003,Allende,16.9930
+038,Zaragoza,004,Arteaga,401.2290
+038,Zaragoza,005,Candela,283.2740
+038,Zaragoza,006,Castaños,215.6500
+038,Zaragoza,007,Cuatro Ciénegas,256.2460
+038,Zaragoza,008,Escobedo,177.9160
+038,Zaragoza,009,Francisco I. Madero,473.9220
+038,Zaragoza,010,Frontera,201.5970
+038,Zaragoza,011,General Cepeda,395.5710
+038,Zaragoza,012,Guerrero,95.9000
+038,Zaragoza,013,Hidalgo,174.6280
+038,Zaragoza,014,Jiménez,98.6690
+038,Zaragoza,015,Juárez,134.4130
+038,Zaragoza,016,Lamadrid,231.4840
+038,Zaragoza,017,Matamoros,491.8370
+038,Zaragoza,018,Monclova,199.8380
+038,Zaragoza,019,Morelos,9.1720
+038,Zaragoza,020,Múzquiz,110.5610
+038,Zaragoza,021,Nadadores,203.4400
+038,Zaragoza,022,Nava,21.7700
+038,Zaragoza,023,Ocampo,305.9500
+038,Zaragoza,024,Parras,461.7080
+038,Zaragoza,025,Piedras Negras,66.2060
+038,Zaragoza,026,Progreso,163.3470
+038,Zaragoza,027,Ramos Arizpe,383.7620
+038,Zaragoza,028,Sabinas,85.9670
+038,Zaragoza,029,Sacramento,220.2280
+038,Zaragoza,030,Saltillo,397.8950
+038,Zaragoza,031,San Buenaventura,198.0210
+038,Zaragoza,032,San Juan de Sabinas,75.8470
+038,Zaragoza,033,San Pedro,441.9690
+038,Zaragoza,034,Sierra Mojada,451.6180
+038,Zaragoza,035,Torreón,503.4660
+038,Zaragoza,036,Viesca,502.3400
+038,Zaragoza,037,Villa Unión,37.1040
