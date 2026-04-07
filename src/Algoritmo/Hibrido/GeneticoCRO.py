@@ -194,8 +194,8 @@ def procesar_cro(nuevas_celulas_torneo, celulas_elitistas):
 def ejecutar_algoritmo_hibrido():
 
     for i in range(5):
-        acrhivo = f"resultadosCRO_{i+1}.csv"
-        with open(f"resultadosCRO_{i+1}.csv", mode="w", newline="") as csvfile:
+        acrhivo = f"resultadosH_{i+1}.csv"
+        with open(f"resultadosH_{i+1}.csv", mode="w", newline="") as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow(["iteracion", "tiempo", "promedio", "mejor", "peor"])
             print(
